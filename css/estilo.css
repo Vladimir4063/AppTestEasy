@@ -1,0 +1,650 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.fondo {
+    background: linear-gradient(180deg, #5C1CFF, #f1f1f1);
+    width: 100%;
+}
+
+.fondo-2{
+    background: linear-gradient(0deg, #5C1CFF, #f1f1f1);
+}
+
+.fondo-3 {
+    background: linear-gradient(60deg, #FDC244, #F16F56);
+}
+
+.btn-contacto {
+    display: inline-block;
+    border: none;
+    background: transparent;
+    padding: 6px 6px;
+    margin-top: 10px;
+}
+.compartir-margen {
+    margin-top: 350px; 
+    text-align: right;
+}
+
+.bg-violet {
+    background-color: #5C1CFF;
+    padding-bottom: 25px;
+    opacity: 0.9;
+    box-shadow: 0em 0.5em 3em #4015ac;
+}
+
+.navbar-brand {
+    padding: 1em;
+    opacity: none;
+}
+
+.nav-link {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.1em;
+}
+.nav-item {
+    padding: 10px;
+}
+
+.navbar-nav .nav-link {color: white;}
+
+
+.navbar-nav .nav-link:hover {color: #5DEDE8; font-weight: 600;}
+
+
+.margen-sup {
+    padding-top: 14em;
+    padding-left: 5em;
+}
+
+.margen-inicio {
+    margin-left: 2rem;
+}
+
+.texto {
+    font-family: 'Rubik', sans-serif;
+    font-size: 2.1em;
+    font-weight: 600;
+    color: rgb(36, 36, 36);
+}
+
+.parrafo {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.2em;
+}
+
+.titulos {
+    justify-content: center;
+}
+
+.cuerpo {
+    padding: 1rem 2rem;
+    background-color: #f1f1f1;
+}
+
+.btn-comenzar {
+    display: inline-block;
+    border-radius: 0.4rem;
+    border: none;
+    background: linear-gradient(-60deg, #FFCC33, #F16F56);
+    color: white;
+    padding: 6px 12px;
+    margin-top: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 1.4em;
+}
+.btn-comenzar:hover {
+    background: linear-gradient(-60deg, #5DEDE8, #5C1CFF);
+}
+
+.est-num {
+    font-family: 'Rubik', sans-serif;
+    font-size: 2.5em;
+    font-weight: 300;
+    color: #5C1CFF;   
+}
+
+.est-text {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.3em;
+    font-weight: 500; 
+    color: rgb(36, 36, 36);
+}
+
+.story-margin {
+    margin-left: 17%;
+    padding: 6rem 0rem;
+}
+
+.img-fluid {
+    width: 90%;
+}
+
+.row-story {
+    margin-bottom: 6rem;
+}
+
+.tit-story {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    color: rgb(36, 36, 36);
+    padding-top: 5rem;
+    padding-right: 3rem;
+    margin-bottom: 2rem;
+}
+
+.text-story {
+    padding-right: 4rem;
+    font-size: 1.3em;
+    width: 100%;
+}
+
+.tit-mayus {
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+    color: #5C1CFF;
+    margin-top: 2rem;
+    text-transform: uppercase;
+}
+
+.btn-violet {
+    display: inline-block;
+    border-radius: 0.4rem;
+    border: none;
+    background: #5C1CFF;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 1.4em;
+    color: white;
+    padding: 10px 17px;
+    margin-top: 10px;
+}
+.btn-violet:hover {
+    box-shadow: 0px 0px 15px #5C1CFF;
+    
+}
+
+.testim {
+    padding: 0rem 4rem;
+    font-size: 0.9em;
+}
+
+.img-testim {
+    width: 7rem;
+    padding-top: 3rem;
+}
+
+.estrellas {
+    width: 10rem; 
+    margin-top: 2rem;
+}
+
+.subtit {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.2em;
+    color: #5C1CFF;
+    font-weight: 500;
+    padding: 0rem 3rem;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+}
+.card-body:hover {
+    color: #5C1CFF;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+.card {
+    box-shadow: 10px 10px 0px #5DEDE8;
+    opacity: 0.8;
+}
+
+.card-title {
+    font-size: 1.4em;
+    font-weight: 700;
+    color: rgb(36, 36, 36);
+    padding: 0.5em 0em;
+}
+
+.btn-card {
+    display: inline-block;
+    border-radius: 0.4rem;
+    border: solid 2px #5C1CFF;
+    background: white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: #5C1CFF;
+    padding: 4px 12px;
+    margin-top: 10px;
+}
+.btn-card:hover {
+    background: #5C1CFF;
+    color: white;
+}
+
+.fondo-form {
+    background-color: #5C1CFF;
+    border-radius: 2em;
+    margin-top: 6em;
+}
+
+.padd-form {
+    padding: 0rem 2rem 4rem 2rem;
+}
+
+.text-check {
+    color: white;
+} 
+
+.btn-celeste {
+    display: inline-block;
+    border-radius: 0.5rem;
+    background: #5DEDE8;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    font-size: 1.4em;
+    text-decoration: none;
+    color: #5C1CFF;
+    padding: 4px 12px;
+    margin-top: 10px;
+}
+
+.logo-footer {
+    margin: 3em;
+    width: 200px;
+    opacity: .8;
+}
+
+.mail {
+    margin-left: 3em;
+    margin-right: 1em;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.input-form {
+    color: white;
+}
+
+.iconos {
+    margin-top: 2em;
+    width: 6rem;
+}
+.marg-icon {
+    margin-left: 3rem;
+}
+
+.text-footer {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    color: #cccccc;
+}
+.lista {
+    list-style: none;
+}
+
+/* vladimir */
+.lista a{
+    text-decoration: none;
+    color:#cccccc;
+}
+
+.lista a:hover{
+    color:ghostwhite;
+}
+
+  /*tamaño-extra-grande*/
+  @media(min-width: 1392px) {
+    .ilus {
+        max-width: 60%;  
+    }     
+  }
+
+  /*tamaño-grande-escritorio*/
+  @media(max-width: 1391px){
+    .tit-mayus {
+        font-family: 'Rubik', sans-serif;
+        font-style: italic;
+        color: #5C1CFF;
+        margin-top: 1.8rem;
+        text-transform: uppercase;
+        
+    }
+    .p-beneficios {
+        font-size: 1.2em;
+        
+    }
+    .ilus {
+        max-width: 70%;  
+    } 
+  }
+
+   /*tamaño-escritorio*/
+   @media(max-width: 991px) {
+    .ilus {
+        max-width: 70%;
+    }  
+    .texto {
+        font-family: 'Rubik', sans-serif;
+        font-size: 1.6em;
+        font-weight: 600;
+        color: rgb(36, 36, 36);
+    }
+    .parrafo {
+    font-family: 'Rubik', sans-serif;
+    font-size: .8em;
+    }
+    .btn-comenzar {
+        display: inline-block;
+        border-radius: 0.4rem;
+        border: none;
+        background: linear-gradient(-60deg, #FFCC33, #F16F56);
+        color: white;
+        padding: 4px 10px;
+        margin-top: 10px;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+        font-size: 1.1em;
+    }
+    .est-num {
+        font-family: 'Rubik', sans-serif;
+        font-size: 2em;
+        font-weight: 300;
+        color: #5C1CFF;   
+    }
+    
+    .est-text {
+        font-family: 'Rubik', sans-serif;
+        font-size: 1em;
+        font-weight: 500; 
+        color: rgb(36, 36, 36);
+    }
+    .tit-story {
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+        font-size: 1.2em;
+        color: rgb(36, 36, 36);
+        padding-top: 2rem;
+        padding-right: 3rem;
+        margin-bottom: 2rem;
+    }
+    .text-story {
+        font-size: .8em;
+    }
+    .story-margin {
+        margin-left: 12%;
+        padding: 2rem 0rem;
+    }
+    .tit-mayus {
+        font-family: 'Rubik', sans-serif;
+        font-style: italic;
+        font-size: 1.3em;
+        color: #5C1CFF;
+        margin-top: 1.5rem;
+        text-transform: uppercase;
+    }
+    .p-pasos{
+        font-size: .7em;
+    }
+    .btn-violet {
+        display: inline-block;
+        border-radius: 0.4rem;
+        border: none;
+        background: #5C1CFF;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+        font-size: 1.2em;
+        color: white;
+        padding: 8px 15px;
+        margin-top: 8px;
+    }
+    .testim {
+        padding: 0rem .5rem;
+        font-size: 0.9em;
+    }
+    .subtit {
+        font-family: 'Rubik', sans-serif;
+        font-size: 1em;
+        color: #5C1CFF;
+        font-weight: 500;
+        padding: 0rem 0rem;
+    }
+    .iconos {
+        margin-top: 1em;
+        width: 4rem;
+    }
+    .marg-icon {
+        margin-left: 1rem;
+    }
+
+    .card-text {
+        font-family: 'Rubik', sans-serif;
+        font-size: 1em;
+    }
+    
+  }
+
+
+  /*tamaño-mediano-tablet*/
+  @media(max-width: 767px) {
+    .ilus {
+        max-width: 70%;
+        padding-top: 4rem;
+    }
+    .texto {
+        font-family: 'Rubik', sans-serif;
+        font-size: 3em;
+        font-weight: 600;
+        color: rgb(36, 36, 36);
+        text-align: center;
+    }
+    .parrafo {
+        font-family: 'Rubik', sans-serif;
+        font-size: 1.3em;
+        text-align: center;
+    }
+    .btn-comenzar {
+        display: inline-block;
+        justify-content: center;
+        border-radius: 0.4rem;
+        border: none;
+        background: linear-gradient(-60deg, #FFCC33, #F16F56);
+        color: white;
+        padding: 6px 14px;
+        margin-top: 10px;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+        font-size: 1.5em;
+        
+    }
+    .est-num {
+        font-family: 'Rubik', sans-serif;
+        font-size: 2.2em;
+        font-weight: 300;
+        color: #5C1CFF;   
+    }
+    
+    .est-text {
+        font-family: 'Rubik', sans-serif;
+        font-size: 1.5em;
+        font-weight: 500; 
+        color: rgb(36, 36, 36);
+    }
+    .tit-story {
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+        font-size: 2em;
+        color: rgb(36, 36, 36);
+        padding-top: 2rem;
+        padding-right: 3rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    .text-story {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .img-fluid {
+        width: 70%;
+    }
+    .tit-mayus {
+        font-family: 'Rubik', sans-serif;
+        font-style: italic;
+        font-size: 1.9em;
+        color: #5C1CFF;
+        margin-top: 1.5rem;
+        text-transform: uppercase;
+    }
+    .p-pasos{
+        font-size: 1.5em;
+    }
+    .num-pasos {
+        margin-top: 1.5rem;
+    }
+    .btn-violet {
+        display: inline-block;
+        border-radius: 0.4rem;
+        border: none;
+        background: #5C1CFF;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+        font-size: 1.7em;
+        color: white;
+        padding: 10px 19px;
+        margin-top: 8px;
+    }
+    .testim {
+        padding: 0rem 4rem;
+        font-size: 1.5em;
+    }
+    .tit-testim {
+        font-size: 2.2em;
+    }
+    .img-testim {
+        width: 10rem;
+        padding-top: 3rem;
+    }
+    .estrellas {
+        width: 13rem; 
+        margin-top: 2rem;
+    }
+    .subtit {
+        font-family: 'Rubik', sans-serif;
+        font-size: 1.4em;
+        color: #5C1CFF;
+        font-weight: 500;
+        padding: 0rem 3rem;
+    }
+    .iconos {
+        margin-top: 1em;
+        width: 5rem;
+    }
+    .marg-icon {
+        margin-left: 0rem;
+        text-align: center;
+    }
+    .tit-mayus {
+        font-family: 'Rubik', sans-serif;
+        font-style: italic;
+        color: #5C1CFF;
+        margin-top: 2rem;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .p-beneficios {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    
+  }
+
+   /*tamaño-mobile*/
+   @media(max-width: 575px) {
+    .btn-comenzar {
+        display: inline-block;
+        border-radius: 0.4rem;
+        border: none;
+        background: linear-gradient(-60deg, #FFCC33, #F16F56);
+        color: white;
+        padding: 6px 14px;
+        margin-top: 10px;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+        font-size: 1.5em;
+    }
+    .ilus {
+        max-width: 70%;
+        padding-top: 6rem;
+    }
+
+    .compartir-margen {
+        margin-top: 400px; 
+        text-align: right;
+    }
+    .texto {
+        font-family: 'Rubik', sans-serif;
+        font-size: 2em;
+        font-weight: 600;
+        color: rgb(36, 36, 36);
+    }
+    .ilus {
+        max-width: 70%;
+        padding-top: 2em;
+    }
+    .centrado {
+        text-align: center;
+    }
+    .te-respondemos {
+        padding-top: 4rem;
+    }
+    .btn-form {
+        justify-content: center;
+    }
+  }
+
+    /*tamaño-mobile-pequeño*/
+    @media(max-width: 460px) {
+        .texto {
+            font-family: 'Rubik', sans-serif;
+            font-size: 2em;
+            font-weight: 600;
+            color: rgb(36, 36, 36);
+        }
+        .ilus {
+            max-width: 70%;
+            padding-top: 2em;
+        }
+        .centrado {
+            text-align: center;
+        }
+        .pasos-center {
+            text-align: center;
+
+        }
+      }
+    
+   
