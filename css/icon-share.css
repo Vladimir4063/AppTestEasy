@@ -21,3 +21,15 @@
   bottom: 15%;
   right: 40px;
 }
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+.icon2:hover {
+  transform: scale(1.1);
+}
+
+.icon3:hover {
+  transform: scale(1.1);
+}
