@@ -1,0 +1,113 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    /* TamañaLetra */
+    /* font-size:30px; */
+    box-sizing: border-box;
+}
+
+/* Section used for centering process */
+
+section{
+    width: 100%;
+    height: 100vh;
+    background-color: #f1f1f1;
+    display: flex;
+    /* centra horizontal */
+    align-items: center;
+    /* centra vertical  */
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.accordion-item{
+    /* color caja contenedor  */
+    background-color: #283042;
+    border-radius: .4rem;
+    /* separador de cajas */
+    margin-bottom: 1rem;
+    /* espacio bordes caja */
+    padding: 1rem;
+    box-shadow: .5rem 2px .5rem rgba(0, 0, 0,.1);
+}
+
+.accordion-link{
+    font-size: 1.6rem;
+    /* color texto pregunta */
+    color: rgba(255, 255, 255, .8);
+    text-decoration: none;
+    background-color: #283042;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+/* iconos */
+.accordion-link i{
+    color: #e7d5ff;
+    padding: .5rem;
+}
+
+.accordion-link .icon-remove{
+    /* ocultamos el remove */
+    display: none;
+}
+
+/* RESPUESTA */
+/* primero esta oculto */
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: #212838;
+    transition: max-height 650ms;
+}
+
+.answer::before {
+    content: "";
+    position: absolute;
+    width: .6rem;
+    height: 90%;
+    /* color solapa contenido  */
+    background-color: #8fc460;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.answer p {
+    color: rgba(255, 255, 255, .6);
+    font-size: 1.4rem;
+    padding: 2rem;
+}
+
+/* evento al hacer click en la tarjeta  */
+/* agrandamos el heigth de la propiedad */
+.accordion-item:target .answer{
+    max-height: 20rem;
+}
+
+/* gestionamos los iconos + -  */
+.accordion-item:target .accordion-link .icon-add {
+    display: none;
+}
+
+.accordion-item:target .accordion-link .icon-remove {
+    display: block;
+}
+
