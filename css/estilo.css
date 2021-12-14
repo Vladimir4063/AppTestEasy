@@ -329,7 +329,7 @@ body {
     .tit-mayus {
         font-family: 'Rubik', sans-serif;
         font-style: italic;
-        color: #5C1CFF;
+        color: #5c1cff;
         margin-top: 1.8rem;
         text-transform: uppercase;
         
@@ -352,7 +352,7 @@ body {
         font-family: 'Rubik', sans-serif;
         font-size: 1.6em;
         font-weight: 600;
-        color: rgb(36, 36, 36);
+        color: #242424;
     }
     .parrafo {
     font-family: 'Rubik', sans-serif;
@@ -381,7 +381,7 @@ body {
         font-family: 'Rubik', sans-serif;
         font-size: 1em;
         font-weight: 500; 
-        color: rgb(36, 36, 36);
+        color: #242424;
     }
     .tit-story {
         font-family: 'Rubik', sans-serif;

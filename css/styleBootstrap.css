@@ -1,0 +1,27 @@
+/* .accordion .accordion-item{
+    background-color: red;
+} */
+
+.accordion{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+}
+.accordion-item {
+    width: 50%;
+}
+
+.first{
+    font-size: 1rem;
+    height: 20px;
+}
+
+.TituloH2{
+    /* color: #5c5858; */
+    color: white;
+    padding: 0px;
+    bottom: 0px;
+    /* box-shadow: 2px 2px; */
+    text-shadow: 2px, 2px, 2px blue;
+}
