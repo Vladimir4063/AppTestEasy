@@ -1,513 +1,565 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
 
   <title>AppTestEasy</title>
-  
+
   <link href="css/estilo.css" rel="stylesheet">
   <link rel="stylesheet" href="css/icon-share.css">
   <link rel="stylesheet" href="css/questions.css">
   <link rel="stylesheet" href="css/styleBootstrap.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
 
-  <!-- ION-ICON -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-  </head>
+</head>
 
 
-  <body>
+<body>
   <!--nav-->
-    <nav class="navbar fixed-top navbar-expand-lg w-100 bg-violet pt-3 pb-3">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#inicio"><img src="img/logo_app.png" style="padding-left: 1.5em;" width="220px"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" style="margin-right:15px;" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Cómo trabajamos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#beneficios">Beneficios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#servicios">Servicios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contactenos">Contáctenos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="ingles/index-en.html">EN</a>
-            </li>
-          </ul>
-        </div>
+  <nav class="navbar fixed-top navbar-expand-lg w-100 bg-violet pt-3 pb-3">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#inicio"><img src="img/logo_app.png" style="padding-left: 1.5em;" width="220px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" style="margin-right:15px;" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Cómo trabajamos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#beneficios">Beneficios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#servicios">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contactenos">Contáctenos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ingles/index-en.html">EN</a>
+          </li>
+        </ul>
       </div>
-    </nav>
-      
-   <!--botones-contacto-->
-    <a class="icon" href="#"><img src="img/boton-compartir-1.png" width="50" alt="icon-share"></a>
-    <a class="icon2" href="#"> <img src="img/boton-compartir-2.png" width="50" alt="icon-mail"></a>
-    <a class="icon3" href="#"> <img src="img/boton-compartir-3.png" width="50" alt="icon-chat"></a>
+    </div>
+  </nav>
 
-<!--servicios-->
+  <!--botones-contacto-->
+  <a class="icon" href="https://api.whatsapp.com/send?text=www.apptesteasy.com"><img src="img/boton-compartir-1.png" width="50" alt="icon-share"></a>
+  <!-- <a class="icon2" href="#"> <img src="img/boton-compartir-2.png" width="50" alt="icon-mail"></a> -->
+  <a class="icon2" href="#"> <img src="img/boton-compartir-3.png" width="50" alt="icon-chat"></a>
 
-<div class="container-fluid fondo-2" style="padding-bottom: 10em;" id="servicios">
-  <div class="row text-center mb-5" style="padding-top: 10rem;">
-    <!-- start accordion -->
-    <div class="accordion" id="accordionPanelsStayOpenExample">
-      <div class=" " style="text-align:left;">
-        <p class="texto">Preguntas Frecuentes</p>
-      </div>
-      <div class="accordion-item bg-transparent" style = "box-shadow:none; border: none; margin-bottom: 0px;">
-        <h2 class="accordion-header" id="panelsStayOpen-headingOne" style="margin-bottom: 20px;">
-          <button class="accordion-button opacity-75 p-2 m-1 text-light fw-bold rounded fs-3" style="background-color: #5DEDE8;"
-            type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
-            aria-controls="panelsStayOpen-collapseOne">
-            <p class="TituloH2">¿Cómo son las evaluaciones de testeo que realizan?</p>
-          </button>
-        </h2>
-        <div id="panelsStayOpen-collapseOne"  class="accordion-collapse collapse show primary"
-          aria-labelledby="panelsStayOpen-headingOne">
-          <div class="accordion-body" style = "margin-left: 7px; background-color: white; border-radius: 10px;">
-            La compañía cuenta con metodologías automatizadas, manuales y pruebas de seguridad
-            para realizar testeos y anticipar cualquier imprevisto. Todas nuestras pruebas se realizan en
-            plataformas web, desktop, mobile y para APIS. En el caso de pruebas mobile o gamer, estas
-            se realizan sobre dispositivos físicos
+  <!--servicios-->
+
+  <div class="container-fluid fondo-2" style="padding-bottom: 10em;" id="servicios">
+    <div class="row text-center mb-5" style="padding-top: 10rem;">
+      <!-- start accordion -->
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class=" " style="text-align:left;">
+          <p class="texto">Preguntas Frecuentes</p>
+        </div>
+        <div class="accordion-item bg-transparent" style="box-shadow:none; border: none; margin-bottom: 0px;">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne" style="margin-bottom: 20px;">
+            <button class="accordion-button opacity-75 p-2 m-1 text-light fw-bold rounded fs-3"
+              style="background-color: #5DEDE8;" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+              aria-controls="panelsStayOpen-collapseOne">
+              <p class="TituloH2">¿Cómo son las evaluaciones de testeo que realizan?</p>
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show primary"
+            aria-labelledby="panelsStayOpen-headingOne">
+            <div class="accordion-body" style="margin-left: 7px; background-color: white; border-radius: 10px;">
+              La compañía cuenta con metodologías automatizadas, manuales y pruebas de seguridad
+              para realizar testeos y anticipar cualquier imprevisto. Todas nuestras pruebas se realizan en
+              plataformas web, desktop, mobile y para APIS. En el caso de pruebas mobile o gamer, estas
+              se realizan sobre dispositivos físicos
+            </div>
           </div>
         </div>
-      </div>
-      <div class="accordion-item bg-transparent" style = "box-shadow:none; border: none; margin-bottom: 0px;">
-        <h2 class="accordion-header" id="panelsStayOpen-headingTwo" style="margin-bottom: 20px;">
-          <button class="accordion-button opacity-75 p-2 m-1 text-light fw-bold rounded fs-3" style="background-color: #5DEDE8;"
-            type="button"
-            data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
-            aria-controls="panelsStayOpen-collapseTwo">
-            ¿Cómo es el control de calidad?
-          </button>
-        </h2>
-        <div id="panelsStayOpen-collapseTwo" style= "margin-top: 15px;" class="accordion-collapse collapse"
-          aria-labelledby="panelsStayOpen-headingTwo">
-          <div class="accordion-body" style = "margin-left: 7px; background-color: white; border-radius: 10px;">
-            AppTestEasy cuenta con un equipo especializado en la búsqueda de errores de software,
-            por lo tanto, cada servicio de control de calidad cumple con una minuciosa serie de prueba
-            que garantiza la detección temprana de fallos que impidan el correcto uso de dicho
-            software.
+        <div class="accordion-item bg-transparent" style="box-shadow:none; border: none; margin-bottom: 0px;">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwo" style="margin-bottom: 20px;">
+            <button class="accordion-button opacity-75 p-2 m-1 text-light fw-bold rounded fs-3"
+              style="background-color: #5DEDE8;" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseTwo">
+              ¿Cómo es el control de calidad?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" style="margin-top: 15px;" class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingTwo">
+            <div class="accordion-body" style="margin-left: 7px; background-color: white; border-radius: 10px;">
+              AppTestEasy cuenta con un equipo especializado en la búsqueda de errores de software,
+              por lo tanto, cada servicio de control de calidad cumple con una minuciosa serie de prueba
+              que garantiza la detección temprana de fallos que impidan el correcto uso de dicho
+              software.
+            </div>
           </div>
         </div>
-      </div>
-      <div class="accordion-item bg-transparent" style="box-shadow:none; border: none; margin-bottom: 0px;">
-        <h2 class="accordion-header" id="panelsStayOpen-headingThree" style="margin-bottom: 20px;">
-          <button class="accordion-button opacity-75 p-2 m-1 text-light fw-bold rounded fs-3"
-            style="background-color: #5DEDE8;" type="button" data-bs-toggle="collapse"
-            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-            ¿Se utilizan varias pruebas de seguridad?
-          </button>
-        </h2>
-        <div id="panelsStayOpen-collapseThree" style="margin-top: 15px;" class="accordion-collapse collapse"
-          aria-labelledby="panelsStayOpen-headingThree">
-          <div class="accordion-body" style="margin-left: 7px; background-color: white; border-radius: 10px;">
-            Desde nuestra compañía consideramos esenciales las pruebas de seguridad para verificar
-            la capacidad de resistencia contra intentos de ataques maliciosos. Uno de nuestros
-            objetivos mas importante es acabar con cualquier posible problema de ciberseguridad.
+        <div class="accordion-item bg-transparent" style="box-shadow:none; border: none; margin-bottom: 0px;">
+          <h2 class="accordion-header" id="panelsStayOpen-headingThree" style="margin-bottom: 20px;">
+            <button class="accordion-button opacity-75 p-2 m-1 text-light fw-bold rounded fs-3"
+              style="background-color: #5DEDE8;" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseThree">
+              ¿Se utilizan varias pruebas de seguridad?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" style="margin-top: 15px;" class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingThree">
+            <div class="accordion-body" style="margin-left: 7px; background-color: white; border-radius: 10px;">
+              Desde nuestra compañía consideramos esenciales las pruebas de seguridad para verificar
+              la capacidad de resistencia contra intentos de ataques maliciosos. Uno de nuestros
+              objetivos mas importante es acabar con cualquier posible problema de ciberseguridad.
+            </div>
           </div>
         </div>
-      </div>
-      <div class="accordion-item bg-transparent" style="box-shadow:none; border: none; margin-bottom: 0px;">
-        <h2 class="accordion-header" id="panelsStayOpen-headingFour" style="margin-bottom: 20px;">
-          <button class="accordion-button opacity-75 p-2 m-1 text-light fw-bold rounded fs-3"
-            style="background-color: #5DEDE8;" type="button" data-bs-toggle="collapse"
-            data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
-            ¿Realizan pruebas reales?
-          </button>
-        </h2>
-        <div id="panelsStayOpen-collapseFour" style="margin-top: 15px;" class="accordion-collapse collapse"
-          aria-labelledby="panelsStayOpen-headingFour">
-          <div class="accordion-body" style="margin-left: 7px; background-color: white; border-radius: 10px;">
-            Nuestro equipo de prueba tiene acceso a más de 200 dispositivos que les permiten
-            ejecutar el servicio de prueba de software en las plataformas requeridas.
+        <div class="accordion-item bg-transparent" style="box-shadow:none; border: none; margin-bottom: 0px;">
+          <h2 class="accordion-header" id="panelsStayOpen-headingFour" style="margin-bottom: 20px;">
+            <button class="accordion-button opacity-75 p-2 m-1 text-light fw-bold rounded fs-3"
+              style="background-color: #5DEDE8;" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseFour">
+              ¿Realizan pruebas reales?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseFour" style="margin-top: 15px;" class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingFour">
+            <div class="accordion-body" style="margin-left: 7px; background-color: white; border-radius: 10px;">
+              Nuestro equipo de prueba tiene acceso a más de 200 dispositivos que les permiten
+              ejecutar el servicio de prueba de software en las plataformas requeridas.
+            </div>
           </div>
         </div>
-      </div>
-      <div class="accordion-item bg-transparent" style="box-shadow:none; border: none; margin-bottom: 0px;">
-        <h2 class="accordion-header" id="panelsStayOpen-headingFive" style="margin-bottom: 20px;">
-          <button class="accordion-button opacity-75 p-2 m-1 text-light fw-bold rounded fs-3"
-            style="background-color: #5DEDE8;" type="button" data-bs-toggle="collapse"
-            data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
-            ¿Realizan mantenimiento? ¿Cómo es dicho proceso?
-          </button>
-        </h2>
-        <div id="panelsStayOpen-collapseFive" style="margin-top: 15px;" class="accordion-collapse collapse"
-          aria-labelledby="panelsStayOpen-headingFive">
-          <div class="accordion-body" style="margin-left: 7px; background-color: white; border-radius: 10px;">
-            Dependiendo el tipo de servicio que contrates, las pruebas de mantenimiento serán
-            diferentes. AppTestEasy te acompañará y asesorará en este proceso para que tu proyecto
-            sea exitoso.
+        <div class="accordion-item bg-transparent" style="box-shadow:none; border: none; margin-bottom: 0px;">
+          <h2 class="accordion-header" id="panelsStayOpen-headingFive" style="margin-bottom: 20px;">
+            <button class="accordion-button opacity-75 p-2 m-1 text-light fw-bold rounded fs-3"
+              style="background-color: #5DEDE8;" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseFive">
+              ¿Realizan mantenimiento? ¿Cómo es dicho proceso?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseFive" style="margin-top: 15px;" class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingFive">
+            <div class="accordion-body" style="margin-left: 7px; background-color: white; border-radius: 10px;">
+              Dependiendo el tipo de servicio que contrates, las pruebas de mantenimiento serán
+              diferentes. AppTestEasy te acompañará y asesorará en este proceso para que tu proyecto
+              sea exitoso.
+            </div>
           </div>
         </div>
-      </div>
-      <div class="accordion-item bg-transparent" style="box-shadow:none; border: none; margin-bottom: 0px;">
-        <h2 class="accordion-header" id="panelsStayOpen-headingSix" style="margin-bottom: 20px;">
-          <button class="accordion-button opacity-75 p-2 m-1 text-light fw-bold rounded fs-3"
-            style="background-color: #5DEDE8;" type="button" data-bs-toggle="collapse"
-            data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+        <div class="accordion-item bg-transparent" style="box-shadow:none; border: none; margin-bottom: 0px;">
+          <h2 class="accordion-header" id="panelsStayOpen-headingSix" style="margin-bottom: 20px;">
+            <button class="accordion-button opacity-75 p-2 m-1 text-light fw-bold rounded fs-3"
+              style="background-color: #5DEDE8;" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseSix">
               ¿Tienen un plan de mejoras para ofrecer, posterior al análisis?
-          </button>
-        </h2>
-        <div id="panelsStayOpen-collapseSix" style="margin-top: 15px;" class="accordion-collapse collapse"
-          aria-labelledby="panelsStayOpen-headingSix">
-          <div class="accordion-body" style="margin-left: 7px; background-color: white; border-radius: 10px;">
-            AppTestEasy detecta y ofrece a los clientes oportunidades de mejoras para sus proyectos
-            mediante la implementación de herramientas de vanguardia en el ámbito tecnológico .
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseSix" style="margin-top: 15px;" class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingSix">
+            <div class="accordion-body" style="margin-left: 7px; background-color: white; border-radius: 10px;">
+              AppTestEasy detecta y ofrece a los clientes oportunidades de mejoras para sus proyectos
+              mediante la implementación de herramientas de vanguardia en el ámbito tecnológico .
+            </div>
           </div>
         </div>
-      </div>
-      <div class="accordion-item bg-transparent" style="box-shadow:none; border: none; margin-bottom: 0px;">
-        <h2 class="accordion-header" id="panelsStayOpen-headingSeven" style="margin-bottom: 20px;">
-          <button class="accordion-button opacity-75 p-2 m-1 text-light fw-bold rounded fs-3"
-            style="background-color: #5DEDE8;" type="button" data-bs-toggle="collapse"
-            data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false" aria-controls="panelsStayOpen-collapseSeven">
+        <div class="accordion-item bg-transparent" style="box-shadow:none; border: none; margin-bottom: 0px;">
+          <h2 class="accordion-header" id="panelsStayOpen-headingSeven" style="margin-bottom: 20px;">
+            <button class="accordion-button opacity-75 p-2 m-1 text-light fw-bold rounded fs-3"
+              style="background-color: #5DEDE8;" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseSeven">
               ¿El equipo de trabajo está capacitado para múltiples respuestas?
-          </button>
-        </h2>
-        <div id="panelsStayOpen-collapseSeven" style="margin-top: 15px;" class="accordion-collapse collapse"
-          aria-labelledby="panelsStayOpen-headingSeven">
-          <div class="accordion-body" style="margin-left: 7px; background-color: white; border-radius: 10px;">
-            Nuestros especialistas calificados están preparados para enfrentar desafíos y garantizar el
-            mejor resultado posible, además de proporcionar óptimas soluciones de control de calidad
-            y mejorar el rendimiento del software de sus clientes.
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseSeven" style="margin-top: 15px;" class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingSeven">
+            <div class="accordion-body" style="margin-left: 7px; background-color: white; border-radius: 10px;">
+              Nuestros especialistas calificados están preparados para enfrentar desafíos y garantizar el
+              mejor resultado posible, además de proporcionar óptimas soluciones de control de calidad
+              y mejorar el rendimiento del software de sus clientes.
+            </div>
           </div>
         </div>
-      </div>
-      <div class="accordion-item bg-transparent" style="box-shadow:none; border: none; margin-bottom: 0px;">
-        <h2 class="accordion-header" id="panelsStayOpen-headingEight" style="margin-bottom: 20px;">
-          <button class="accordion-button opacity-75 p-2 m-1 text-light fw-bold rounded fs-3"
-            style="background-color: #5DEDE8;" type="button" data-bs-toggle="collapse"
-            data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="false" aria-controls="panelsStayOpen-collapseEight">
-            ¿Cuentan con personal especializado para cada tipo de testeo?
-          </button>
-        </h2>
-        <div id="panelsStayOpen-collapseEight" style="margin-top: 15px;" class="accordion-collapse collapse"
-          aria-labelledby="panelsStayOpen-headingEight">
-          <div class="accordion-body" style="margin-left: 7px; background-color: white; border-radius: 10px;">
-            Contamos con diferentes equipos de trabajos profesionales y certificados, altamente
-            especializados en cada área, con todos los equipos y dispositivos necesarios, logrando que
-            la agilidad sea la característica más destacable de la empresa.
+        <div class="accordion-item bg-transparent" style="box-shadow:none; border: none; margin-bottom: 0px;">
+          <h2 class="accordion-header" id="panelsStayOpen-headingEight" style="margin-bottom: 20px;">
+            <button class="accordion-button opacity-75 p-2 m-1 text-light fw-bold rounded fs-3"
+              style="background-color: #5DEDE8;" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseEight">
+              ¿Cuentan con personal especializado para cada tipo de testeo?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseEight" style="margin-top: 15px;" class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingEight">
+            <div class="accordion-body" style="margin-left: 7px; background-color: white; border-radius: 10px;">
+              Contamos con diferentes equipos de trabajos profesionales y certificados, altamente
+              especializados en cada área, con todos los equipos y dispositivos necesarios, logrando que
+              la agilidad sea la característica más destacable de la empresa.
+            </div>
           </div>
         </div>
-      </div>
-      <div class="accordion-item bg-transparent" style="box-shadow:none; border: none; margin-bottom: 0px;">
-        <h2 class="accordion-header" id="panelsStayOpen-headingNine" style="margin-bottom: 20px;">
-          <button class="accordion-button opacity-75 p-2 m-1 text-light fw-bold rounded fs-3"
-            style="background-color: #5DEDE8;" type="button" data-bs-toggle="collapse"
-            data-bs-target="#panelsStayOpen-collapseNine" aria-expanded="false" aria-controls="panelsStayOpen-collapseNine">
-            ¿La atención es personalizada?
-          </button>
-        </h2>
-        <div id="panelsStayOpen-collapseNine" style="margin-top: 15px;" class="accordion-collapse collapse"
-          aria-labelledby="panelsStayOpen-headingNine">
-          <div class="accordion-body" style="margin-left: 7px; background-color: white; border-radius: 10px;">
-            Nuestros especialistas elaboran una estrategia de prueba personalizada para cada
-            proyecto basándose en las mejores prácticas y características especiales de cada proyecto
-            de forma individual.
+        <div class="accordion-item bg-transparent" style="box-shadow:none; border: none; margin-bottom: 0px;">
+          <h2 class="accordion-header" id="panelsStayOpen-headingNine" style="margin-bottom: 20px;">
+            <button class="accordion-button opacity-75 p-2 m-1 text-light fw-bold rounded fs-3"
+              style="background-color: #5DEDE8;" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseNine" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseNine">
+              ¿La atención es personalizada?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseNine" style="margin-top: 15px;" class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingNine">
+            <div class="accordion-body" style="margin-left: 7px; background-color: white; border-radius: 10px;">
+              Nuestros especialistas elaboran una estrategia de prueba personalizada para cada
+              proyecto basándose en las mejores prácticas y características especiales de cada proyecto
+              de forma individual.
+            </div>
           </div>
         </div>
-      </div>
-      <div class="accordion-item bg-transparent" style="box-shadow:none; border: none; margin-bottom: 0px;">
-        <h2 class="accordion-header" id="panelsStayOpen-headingTen" style="margin-bottom: 20px;">
-          <button class="accordion-button opacity-75 p-2 m-1 text-light fw-bold rounded fs-3"
-            style="background-color: #5DEDE8;" type="button" data-bs-toggle="collapse"
-            data-bs-target="#panelsStayOpen-collapseTen" aria-expanded="false" aria-controls="panelsStayOpen-collapseTen">
-            ¿Cómo hago para contratar el servicio?
-          </button>
-        </h2>
-        <div id="panelsStayOpen-collapseTen" style="margin-top: 15px;" class="accordion-collapse collapse"
-          aria-labelledby="panelsStayOpen-headingTen">
-          <div class="accordion-body" style="margin-left: 7px; background-color: white; border-radius: 10px;">
-            Completa tus datos y déjanos la ruta del sitio que querés testear, no olvides seleccionar el
-            servicio que deseas, nosotros analizaremos tu sitio y nos pondremos en contacto contigo
-            para asesorarte y ofrecerte el mejor servicio de testeo .
+        <div class="accordion-item bg-transparent" style="box-shadow:none; border: none; margin-bottom: 0px;">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTen" style="margin-bottom: 20px;">
+            <button class="accordion-button opacity-75 p-2 m-1 text-light fw-bold rounded fs-3"
+              style="background-color: #5DEDE8;" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseTen" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseTen">
+              ¿Cómo hago para contratar el servicio?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTen" style="margin-top: 15px;" class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingTen">
+            <div class="accordion-body" style="margin-left: 7px; background-color: white; border-radius: 10px;">
+              Completa tus datos y déjanos la ruta del sitio que querés testear, no olvides seleccionar el
+              servicio que deseas, nosotros analizaremos tu sitio y nos pondremos en contacto contigo
+              para asesorarte y ofrecerte el mejor servicio de testeo .
+            </div>
           </div>
         </div>
-      </div>
-      
-      
-    </div>
-    <!-- end accordion -->
-    <div class="col-md-2"></div>
-    <div class="col-md-8">
-      <h1 class="texto mb-3" style="color: #5C1CFF;">Contrate su servicio</h1>
-      <p class="subtit">Combinamos nuestros diversos conocimientos técnicos y experiencia profesional en diferentes tipos de testing brindando soluciones de control de calidad y pruebas de desarrollos de software.</p>
-    </div>
-    <div class="col-md-2"></div>
-  </div>
-<div class="row justify-content-center pt-5">
-  <div class="col-md-9">
-   <div class="row mb-5">
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-      <div class="card mb-5 mx-auto" style="width: 18rem; border-radius: 1em;">
-        <div class="card-body text-center">
-          <h5 class="card-title">App Testing</h5>
-          <p class="card-text">Realizamos pruebas funcionales en todo el proceso de desarrollo de software o posterior a su lanzamiento productivo, incluyendo testeos manuales, de regresión y automáticos.</p>
-          <a href="#contactenos" class="btn-card" style="text-decoration: none;">comenzar</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-      <div class="card mb-5 mx-auto" style="width: 18rem; border-radius: 1em;">
-        <div class="card-body text-center">
-          <h5 class="card-title">Api Testing</h5>
-          <p class="card-text">Garantizamos que las<br/>de programación de su<br/>aplicación cumplan la funcionalidad, confiabilidad, rendimiento y seguridad.</p><br/>
-          <a href="#contactenos" class="btn-card" style="text-decoration: none;">comenzar</a>
-        </div>
-     </div>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4"> 
-      <div class="card mb-5 mx-auto" style="width: 18rem; border-radius: 1em;">
-      <div class="card-body text-center">
-        <h5 class="card-title">Mobile Testing</h5>
-        <p class="card-text">Realizamos pruebas de aplicaciones móviles en dispositivos reales, en iOS y Android, asegurando la experiencia del usuario y la funcionalidad requerida.</p>
-        <a href="#contactenos" class="btn-card" style="text-decoration: none;">comenzar</a>
-      </div>
-      </div>
-   </div>
-   
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4"> 
-      <div class="card mb-5 mx-auto" style="width: 18rem; border-radius: 1em;">
-      <div class="card-body text-center">
-        <h5 class="card-title">Performance Testing</h5>
-        <p class="card-text">Desarrollamos pruebas no funcionales de rendimiento, carga, estrés, volumen y confiabilidad de sus desarrollos y la infraestructura donde se encuentran implementados. </p>
-        <a href="#contactenos" class="btn-card" style="text-decoration: none;">comenzar</a>
-      </div>
-   </div></div>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-      <div class="card mb-5 mx-auto" style="width: 18rem; border-radius: 1em;">
-        <div class="card-body text-center">
-          <h5 class="card-title">Security Testing</h5>
-          <p class="card-text">Descubrimos vulnerabilidades del desarrollo y si la protección de la privacidad de los datos está siendo la adecuada frente a ciberataques o ciberamenazas.</p><br/>
-          <a href="#contactenos" class="btn-card" style="text-decoration: none;">comenzar</a>
-        </div>
-     </div>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-      <div class="card mb-5 mx-auto" style="width: 18rem; border-radius: 1em;">
-        <div class="card-body text-center">
-          <h5 class="card-title">Usability Testing</h5>
-          <p class="card-text">Verificamos la facilidad y<br/>la mejor experiencia que puede tener el usuario al<br/>interactuar con la aplicación,<br/>app móvil o el desarrollo web.</p><br/>
-          <a href="#contactenos" class="btn-card" style="text-decoration: none;">comenzar</a>
-        </div>
-     </div>
-     <div class="col-md-2"></div>
-    </div>
 
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-      <div class="card mb-5 mx-auto" style="width: 18rem; border-radius: 1em;">
-        <div class="card-body text-center">
-          <h5 class="card-title">Gamer Testing</h5>
-          <p class="card-text">Las pruebas de juegos requiere diferentes niveles y un sofisticado proceso tanto en la experiencia visual, sonido y propiamente en el desarrollo de su software.</p>
-          <a href="#contactenos" class="btn-card" style="text-decoration: none;">comenzar</a>
-        </div>
-     </div>
-    </div>
-   </div>
-  </div>
-</div>
-</div>
 
-<!--formulario-->
- <div class="container-fluid fondo-3" style="padding-bottom: 10rem;" id="contactenos">
-  <div class="row justify-content-center pt-5">
-    <div class="col-md-8">
-      <div class="container fondo-form pt-3">
-      
-       <div class="row padd-form pb-4">
-          <h1 class="texto mt-5 mb-2" style="color: white">Quiero mi testing</h1>
-          <p style="color: white;">En caso de que necesite algunos servicios únicos o tenga dudas sobre algún detalle del proyecto,<br/>especifique sus deseos y los detalles del proyecto en el campo de comentarios.</p>
-       </div>
-
-      <div class="row padd-form">
-    
+      </div>
+      <!-- end accordion -->
+      <!-- <div class="col-md-2"></div>
       <div class="col-md-8">
-    <form>
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label input-form">Nombre*</label>
-        <input type="name" name="name" class="form-control" style="background: transparent; border: solid 2px white; color: white;" id="exampleFormControlInput1">
+        <h1 class="texto mb-3" style="color: #5C1CFF;">Contrate su servicio</h1>
+        <p class="subtit">Combinamos nuestros diversos conocimientos técnicos y experiencia profesional en diferentes
+          tipos de testing brindando soluciones de control de calidad y pruebas de desarrollos de software.</p>
       </div>
-      <div class="mb-3">
-        <label for="exampleFormControlInput2" class="form-label input-form">Email*</label>
-        <input type="email" class="form-control" style="background: transparent; border: solid 2px white; color: white;" id="exampleFormControlInput2">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlInput3" class="form-label input-form">Compañía</label>
-        <input type="compañía" class="form-control" style="background: transparent; border: solid 2px white; color: white;" id="exampleFormControlInput3">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlInput4" class="form-label input-form">Teléfono</label>
-        <input type="teléfono" class="form-control" style="background: transparent; border: solid 2px white; color: white;" id="exampleFormControlInput4">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlInput5" class="form-label input-form">País*</label>
-        <input type="país" class="form-control" style="background: transparent; border: solid 2px white; color: white;" id="exampleFormControlInput5">
-      </div>
+      <div class="col-md-2"></div> -->
+    </div>
+    <!-- <div class="row justify-content-center pt-5">
+      <div class="col-md-9">
+        <div class="row mb-5">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="card mb-5 mx-auto" style="width: 18rem; border-radius: 1em;">
+              <div class="card-body text-center">
+                <h5 class="card-title">App Testing</h5>
+                <p class="card-text">Realizamos pruebas funcionales en todo el proceso de desarrollo de software o
+                  posterior a su lanzamiento productivo, incluyendo testeos manuales, de regresión y automáticos.</p>
+                <a href="#contactenos" class="btn-card" style="text-decoration: none;">comenzar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="card mb-5 mx-auto" style="width: 18rem; border-radius: 1em;">
+              <div class="card-body text-center">
+                <h5 class="card-title">Api Testing</h5>
+                <p class="card-text">Garantizamos que las<br />de programación de su<br />aplicación cumplan la
+                  funcionalidad, confiabilidad, rendimiento y seguridad.</p><br />
+                <a href="#contactenos" class="btn-card" style="text-decoration: none;">comenzar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="card mb-5 mx-auto" style="width: 18rem; border-radius: 1em;">
+              <div class="card-body text-center">
+                <h5 class="card-title">Mobile Testing</h5>
+                <p class="card-text">Realizamos pruebas de aplicaciones móviles en dispositivos reales, en iOS y
+                  Android, asegurando la experiencia del usuario y la funcionalidad requerida.</p>
+                <a href="#contactenos" class="btn-card" style="text-decoration: none;">comenzar</a>
+              </div>
+            </div>
+          </div>
 
-      <div class="row">
-        <div class="col-md-12">
-          <p style="color: white; padding-top: 2em;">¿Qué servicio necesitas?*</p>
-          <div class="row">
-            <div class="col">
-              <div class="form-check">
-                <input class="form-check-input" style="background-color: transparent; border: solid white 2px;" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label text-check" for="flexCheckDefault">
-                  App Testing
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" style="background-color: transparent; border: solid white 2px;" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label text-check" for="flexCheckDefault">
-                  Performance Testing
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" style="background-color: transparent; border: solid white 2px;" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label text-check" for="flexCheckDefault">
-                  Gamer Testing
-                </label>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="card mb-5 mx-auto" style="width: 18rem; border-radius: 1em;">
+              <div class="card-body text-center">
+                <h5 class="card-title">Performance Testing</h5>
+                <p class="card-text">Desarrollamos pruebas no funcionales de rendimiento, carga, estrés, volumen y
+                  confiabilidad de sus desarrollos y la infraestructura donde se encuentran implementados. </p>
+                <a href="#contactenos" class="btn-card" style="text-decoration: none;">comenzar</a>
               </div>
             </div>
-            <div class="col">
-              <div class="form-check">
-                <input class="form-check-input" style="background-color: transparent; border: solid white 2px;" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label text-check" for="flexCheckDefault">
-                  Api Testing
-                </label>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="card mb-5 mx-auto" style="width: 18rem; border-radius: 1em;">
+              <div class="card-body text-center">
+                <h5 class="card-title">Security Testing</h5>
+                <p class="card-text">Descubrimos vulnerabilidades del desarrollo y si la protección de la privacidad de
+                  los datos está siendo la adecuada frente a ciberataques o ciberamenazas.</p><br />
+                <a href="#contactenos" class="btn-card" style="text-decoration: none;">comenzar</a>
               </div>
-              <div class="form-check">
-                <input class="form-check-input" style="background-color: transparent; border: solid white 2px;" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label text-check" for="flexCheckDefault">
-                  Security Testing
-                </label>
-              </div>
-           
             </div>
-            <div class="col">
-              <div class="form-check">
-                <input class="form-check-input" style="background-color: transparent; border: solid white 2px;" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label text-check" for="flexCheckDefault">
-                  Mobile Testing
-                </label>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="card mb-5 mx-auto" style="width: 18rem; border-radius: 1em;">
+              <div class="card-body text-center">
+                <h5 class="card-title">Usability Testing</h5>
+                <p class="card-text">Verificamos la facilidad y<br />la mejor experiencia que puede tener el usuario
+                  al<br />interactuar con la aplicación,<br />app móvil o el desarrollo web.</p><br />
+                <a href="#contactenos" class="btn-card" style="text-decoration: none;">comenzar</a>
               </div>
-              <div class="form-check">
-                <input class="form-check-input" style="background-color: transparent; border: solid white 2px;" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label text-check" for="flexCheckDefault">
-                  Usability Testing
-                </label>
-              </div>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="card mb-5 mx-auto" style="width: 18rem; border-radius: 1em;">
+              <div class="card-body text-center">
+                <h5 class="card-title">Gamer Testing</h5>
+                <p class="card-text">Las pruebas de juegos requiere diferentes niveles y un sofisticado proceso tanto en
+                  la experiencia visual, sonido y propiamente en el desarrollo de su software.</p>
+                <a href="#contactenos" class="btn-card" style="text-decoration: none;">comenzar</a>
               </div>
             </div>
           </div>
         </div>
-        <p style="color: white; padding-top: 2em;">Indica ruta de aplicaciones o sitios a testear*</p>
-         <div class="mb-3">
-         <textarea class="form-control" style="background: transparent; border: solid 2px white; color: white;" id="exampleFormControlTextarea1" rows="3"></textarea>
-         </div> 
-      
-      <button type="button" class="btn-celeste float-end btn-form">Contratar</button>
-    </form>
       </div>
-        <div class="col-md-4 mb-5 text-center">
-          <img src="img/te-respondemos.png" width="80%" class="te-respondemos" alt="te respondemos">
-        </div>
-       </div>
-      </div>
+    </div> -->
   </div>
- </div>
-</div>
 
-<!--footer-->
-<div class="container-fluid" style="background: #333333; height: 100%;">
-  <div class="row">
-    <div class="col-md-6">
-      <div class="row">
-        <div class="col">
-         <img src="img/logo_app.png" class="logo-footer" alt="logo-apptest">
+  <!--formulario-->
+  <div class="container-fluid fondo-3" style="padding-bottom: 10rem; background: whitesmoke;" id="contactenos">
+    <div class="row justify-content-center pt-5" style="background-color: whitesmoke;">
+      <div class="col-md-8">
+        <div class="container fondo-form pt-3">
+
+          <div class="row padd-form pb-4">
+            <h1 class="texto mt-5 mb-2" style="color: white">Quiero mi testing</h1>
+            <p style="color: white;">En caso de que necesite algunos servicios únicos o tenga dudas sobre algún detalle
+              del proyecto,<br />especifique sus deseos y los detalles del proyecto en el campo de comentarios.</p>
+          </div>
+
+          <div class="row padd-form">
+
+            <div class="col-md-8">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label input-form">Nombre*</label>
+                  <input type="name" name="name" class="form-control"
+                    style="background: transparent; border: solid 2px white; color: white;"
+                    id="exampleFormControlInput1">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput2" class="form-label input-form">Email*</label>
+                  <input type="email" class="form-control"
+                    style="background: transparent; border: solid 2px white; color: white;"
+                    id="exampleFormControlInput2">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput3" class="form-label input-form">Compañía</label>
+                  <input type="compañía" class="form-control"
+                    style="background: transparent; border: solid 2px white; color: white;"
+                    id="exampleFormControlInput3">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput4" class="form-label input-form">Teléfono</label>
+                  <input type="teléfono" class="form-control"
+                    style="background: transparent; border: solid 2px white; color: white;"
+                    id="exampleFormControlInput4">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput5" class="form-label input-form">País*</label>
+                  <input type="país" class="form-control"
+                    style="background: transparent; border: solid 2px white; color: white;"
+                    id="exampleFormControlInput5">
+                </div>
+
+                <div class="row">
+                  <div class="col-md-12">
+                    <p style="color: white; padding-top: 2em;">¿Qué servicio necesitas?*</p>
+                    <div class="row">
+                      <div class="col">
+                        <div class="form-check">
+                          <input class="form-check-input"
+                            style="background-color: transparent; border: solid white 2px;" type="checkbox" value=""
+                            id="flexCheckDefault">
+                          <label class="form-check-label text-check" for="flexCheckDefault">
+                            App Testing
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input"
+                            style="background-color: transparent; border: solid white 2px;" type="checkbox" value=""
+                            id="flexCheckDefault">
+                          <label class="form-check-label text-check" for="flexCheckDefault">
+                            Performance Testing
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input"
+                            style="background-color: transparent; border: solid white 2px;" type="checkbox" value=""
+                            id="flexCheckDefault">
+                          <label class="form-check-label text-check" for="flexCheckDefault">
+                            Gamer Testing
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="form-check">
+                          <input class="form-check-input"
+                            style="background-color: transparent; border: solid white 2px;" type="checkbox" value=""
+                            id="flexCheckDefault">
+                          <label class="form-check-label text-check" for="flexCheckDefault">
+                            Api Testing
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input"
+                            style="background-color: transparent; border: solid white 2px;" type="checkbox" value=""
+                            id="flexCheckDefault">
+                          <label class="form-check-label text-check" for="flexCheckDefault">
+                            Security Testing
+                          </label>
+                        </div>
+
+                      </div>
+                      <div class="col">
+                        <div class="form-check">
+                          <input class="form-check-input"
+                            style="background-color: transparent; border: solid white 2px;" type="checkbox" value=""
+                            id="flexCheckDefault">
+                          <label class="form-check-label text-check" for="flexCheckDefault">
+                            Mobile Testing
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input"
+                            style="background-color: transparent; border: solid white 2px;" type="checkbox" value=""
+                            id="flexCheckDefault">
+                          <label class="form-check-label text-check" for="flexCheckDefault">
+                            Usability Testing
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p style="color: white; padding-top: 2em;">Indica ruta de aplicaciones o sitios a testear*</p>
+                <div class="mb-3">
+                  <textarea class="form-control" style="background: transparent; border: solid 2px white; color: white;"
+                    id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+
+                <button type="button" class="btn-celeste float-end btn-form">Contratar</button>
+              </form>
+            </div>
+            <div class="col-md-4 mb-5 text-center">
+              <img src="img/te-respondemos.png" width="80%" class="te-respondemos" alt="te respondemos">
+            </div>
+          </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-12">
-          <div>
-          <img src="img/icon-email.png" style="float: left;" class="mail" width="25px" alt="icono-sobre">
-          <p style="color: #cccccc;">info@apptesteasy.com</p>
-        </div>
-        </div>
-
-      </div>
-      
     </div>
-    <div class="col-md-6" style="padding-left: 4em; margin-top: 3em;">
-      <div class="row pt-4 text-footer">
-        <div class="col-6">
-          <nav class="lista">
-            <li><p style="font-weight: 700;">Servicios</p></li>
-            <!-- <li><a>App Testing</a></li>
+  </div>
+
+  <!--footer-->
+  <div class="container-fluid" style="background: #333333; height: 100%;">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col">
+            <img src="img/logo_app.png" class="logo-footer" alt="logo-apptest">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div>
+              <img src="img/icon-email.png" style="float: left;" class="mail" width="25px" alt="icono-sobre">
+              <p style="color: #cccccc;">info@apptesteasy.com</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col-md-6" style="padding-left: 4em; margin-top: 3em;">
+        <div class="row pt-4 text-footer">
+          <div class="col-6">
+            <nav class="lista">
+              <li>
+                <p style="font-weight: 700;">Servicios</p>
+              </li>
+              <!-- <li><a>App Testing</a></li>
             <li><a>Api Testing</a></li>
             <li><a>Mobile Testing</a></li>
             <li><a>Performance Testing</a></li>
             <li><a>Security Testing</a></li>
             <li><a>Usability Testing</a></li>
             <li><a>Game Testing</a></li> -->
-            <li><a href="#contactenos">App Testing</a></li>
-            <li><a href="#contactenos">Api Testing</a></li>
-            <li><a href="#contactenos">Mobile Testing</a></li>
-            <li><a href="#contactenos">Performance Testing</a></li>
-            <li><a href="#contactenos">Security Testing</a></li>
-            <li><a href="#contactenos">Usability Testing</a></li>
-            <li><a href="#contactenos">Gamer Testing</a></li>
+              <li><a href="#contactenos">App Testing</a></li>
+              <li><a href="#contactenos">Api Testing</a></li>
+              <li><a href="#contactenos">Mobile Testing</a></li>
+              <li><a href="#contactenos">Performance Testing</a></li>
+              <li><a href="#contactenos">Security Testing</a></li>
+              <li><a href="#contactenos">Usability Testing</a></li>
+              <li><a href="#contactenos">Gamer Testing</a></li>
             </nav>
-        </div>
-        <div class="col-6">
-          <ul class="lista">
-            <li><p style="font-weight: 700;">Ayuda</p></li>
-            <!-- <li><a>Sobre Nosotros</a></li>
+          </div>
+          <div class="col-6">
+            <ul class="lista">
+              <li>
+                <p style="font-weight: 700;">Ayuda</p>
+              </li>
+              <!-- <li><a>Sobre Nosotros</a></li>
             <li><a>FAQs</a></li>
             <li><a>Terminos y Condiciones</a></li>
             <li><a>Contacto</a></li> -->
-            <li><a href="#">Sobre Nosotros</a></li>
-            <li><a href="#">FAQs</a></li>
-            <li><a href="#">Terminos y Condiciones</a></li>
-            <li><a href="#">Contacto</a></li>
-          </ul>
+              <li><a href="#">Sobre Nosotros</a></li>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Terminos y Condiciones</a></li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
+    <div class="row">
+      <div class="col-12 text-center">
+        <p style="color: grey; font-size: 1em; margin-top: 6em;">Todos los derechos reservados © 2021 AppTestEasy</p>
+      </div>
+    </div>
   </div>
-  <div class="row">
-     <div class="col-12 text-center">
-          <p style="color: grey; font-size: 1em; margin-top: 6em;">Todos los derechos reservados © 2021 AppTestEasy</p>
-     </div>
-  </div>
-</div>
 
 
 
-    <!-- Optional JavaScript; choose one of the two! -->
+  <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
     -->
-  </body>
+</body>
+
 </html>

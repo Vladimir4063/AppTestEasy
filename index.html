@@ -20,10 +20,10 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="css/styleCardHover.css">
+  <link rel="stylesheet" href="css/styleBootstrap.css">
 
   <!-- chat bot -->
-  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  <!-- <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script> -->
 </head>
 
 
@@ -64,17 +64,16 @@
 
 
   <!--botones-contacto-->
-  <!-- <nav class="navbar fixed-top navbar-right compartir-margen">
-        <div class="container-fluid d-inline-block">
-            <div class="col-md-12 text-right w-100"> <button type="button" style="border: none" class="btn-contacto"><img src="img/boton-compartir-1.png" width="50vw"></button></div>
-            <div class="col-md-12 text-right w-100"> <button type="button" style="border: none" class="btn-contacto"><img src="img/boton-compartir-2.png" width="50vw"></button></div>
-            <div class="col-md-12 text-right w-100"> <button type="button" style="border: none" class="btn-contacto"><img src="img/boton-compartir-3.png" width="50vw"></button></div>
-        </div>
-      </nav> -->
   <div class="icon-share">
-    <a class="icon" href="questions.html"><img src="img/boton-compartir-1.png" width="50" alt="icon-share"></a>
-    <a class="icon2" href="#"> <img src="img/boton-compartir-2.png" width="50" alt="icon-mail"></a>
-    <a class="icon3" href="#"> <img src="img/boton-compartir-3.png" width="50" alt="icon-chat"></a>
+    <a id="btn-copy" class="icon" onclick="copytoClickBoard()"
+      ><img src="img/boton-compartir-1.png" width="50" alt="icon-share"></a>
+    <!-- <a class="icon" href="https://api.whatsapp.com/send?text=www.apptesteasy.com" onclick="cypyToClipBoard()" target="_blank"><img src="img/boton-compartir-1.png" width="50" alt="icon-share"></a> -->
+    <!-- <a class="icon2" href="#"> <img src="img/boton-compartir-2.png" width="50" alt="icon-mail"></a> -->
+    <a class="icon2" href="https://api.whatsapp.com/send?text=[Hola]"> <img src="img/boton-compartir-3.png" width="50" alt="icon-chat"></a>
+    
+  </div>
+  <div class="mensaje-copy">
+    <p>¡Copiado al portapapeles!</p>
   </div>
 
   <!--inicio-->
@@ -333,75 +332,77 @@
       <div class="col-md-9">
         <div class="row mb-5">
           <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-            <div class="card mb-5 mx-auto cardHover" style="width: 20rem;  height: 26rem; border-radius: 1em;">
+            <div class="card mb-5 mx-auto cardHover" style="width: 20rem;  height: 29.3rem; border-radius: 1em;">
               <div class="text-center">
-                <img src="img/1App_testing.png" width="330px" alt="">
+                <img src="img/1App_testing.png" width="330px" alt="AppTesting" id="AppTesting">
                 <h5 class="card-title">App Testing</h5>
                 <p>Realizamos pruebas funcionales en todo el proceso de desarrollo de software o posterior a su
                   lanzamiento productivo, incluyendo testeos manuales, de regresión y automáticos.</p>
+                <a href="#contactenos" class="btn-card" style="text-decoration: none;">Comenzar</a>
               </div>
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-            <div class="card mb-5 mx-auto cardHover" style="width: 20rem; height: 26rem; border-radius: 1em;">
+            <div class="card mb-5 mx-auto cardHover" style="width: 20rem; height: 29.3rem; border-radius: 1em;">
               <div class="text-center">
-                <img src="img/2Api_Testing.png" width="280px" alt="ApiTesting" style="padding-top: 20px;">
+                <img src="img/2Api_Testing.png" width="280px" alt="ApiTesting" style="padding-top: 10px;" id="ApiTesting">
                 <h5 class="card-title">Api Testing</h5>
-                <p class="card-text" style="padding: 5px;">Garantizamos que las de programación de su aplicación cumplan la
-                  funcionalidad, confiabilidad, rendimiento y seguridad.</p>
+                <p class="card-text" style="padding: 13px; padding-bottom: 0px; padding-top: 8px;">
+                  Garantizamos que las de <br/> programación de su aplicación cumplan la funcionalidad, confiabilidad, rendimiento y seguridad.</p>
+                <a href="#contactenos" class="btn-card" style="text-decoration: none;">Comenzar</a>
               </div>
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-            <div class="card mb-5 mx-auto cardHover" style="width: 20rem; height: 26rem; border-radius: 1em;">
+            <div class="card mb-5 mx-auto cardHover" style="width: 20rem; height: 29.3rem; border-radius: 1em;">
               <div class="text-center">
-                <img src="img/Mobile_testing.png" width="350px" height="250px" alt="MobileTesting" style="padding-right: 35px;">
+                <img src="img/3Mobile_testing.png" width="290px" height="190px" alt="MobileTesting" style="padding-top: 10px;" id="MobileTesting">
                 <h5 class="card-title">Mobile Testing</h5>
-                <p>Realizamos pruebas de aplicaciones móviles en dispositivos reales, en iOS y Android, asegurando la
-                  experiencia del usuario y la funcionalidad requerida.</p>
+                <p style="padding-top: 8px;">Realizamos pruebas de <br>aplicaciones móviles en dispositivos reales, en iOS y Android, asegurando <br> la experiencia del usuario y la funcionalidad requerida.</p>
+                <a href="#contactenos" class="btn-card" style="text-decoration: none;">Comenzar</a>
               </div>
             </div>
           </div>
 
           <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-            <div class="card mb-5 mx-auto cardHover" style="width: 20rem; height: 26rem; border-radius: 1em;">
+            <div class="card mb-5 mx-auto cardHover" style="width: 20rem; height: 29.3rem; border-radius: 1em;">
               <div class="text-center">
-                <img src="img/4performance-testing-graphics.svg" width="280px" alt="PerformanceTesing">
+                <img src="img/4performance-testing-graphics.svg" width="280px" alt="PerformanceTesing" id="PerformanceTesting">
                 <h5 class="card-title">Performance Testing</h5>
-                <p class="card-text">Desarrollamos pruebas no funcionales de rendimiento, carga, estrés, volumen y
-                  confiabilidad de sus desarrollos y la infraestructura donde se encuentran implementados. </p>
+                <p class="card-text">Desarrollamos pruebas no funcionales de rendimiento, carga, estrés, volumen y confiabilidad de sus desarrollos y la infraestructura donde se encuentran implementados. </p>
+                <a href="#contactenos" class="btn-card" style="text-decoration: none; margin-top: 6px;">Comenzar</a>
               </div>
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-            <div class="card mb-5 mx-auto cardHover" style="width: 20rem; height: 26rem; border-radius: 1em;">
+            <div class="card mb-5 mx-auto cardHover" style="width: 20rem; height: 29.3rem; border-radius: 1em;">
               <div class="text-center">
-                <img src="img/5security_testing.png" width="300px" alt="SecurityTesting">
-                <h5 class="card-title">Security Testing</h5>
-                <p class="card-text">Descubrimos vulnerabilidades del desarrollo y si la protección de la privacidad de
-                  los datos está siendo la adecuada frente a ciberataques o ciberamenazas.</p><br />
+                <img src="img/5security_testing.png" width="300px" alt="SecurityTesting" id="SecurityTesting" >
+                <h5 class="card-title" style="padding-top: 15px;">Security Testing</h5>
+                <p class="card-text" style="padding-top: 2px;">Descubrimos vulnerabilidades del desarrollo y si la protección de la privacidad de los datos está siendo la adecuada frente a ciberataques o ciberamenazas.</p>
+                <a href="#contactenos" class="btn-card" style="text-decoration: none;">Comenzar</a>
               </div>
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-            <div class="card mb-5 mx-auto cardHover" style="width: 20rem; height: 26rem; border-radius: 1em;">
+            <div class="card mb-5 mx-auto cardHover" style="width: 20rem; height: 29.3rem; border-radius: 1em;">
               <div class="text-center">
-                <img src="img/6usability.png" width="300px" alt="UsabilityTesting">
+                <img src="img/6usability.png" width="300px" alt="UsabilityTesting" id="UsabilityTesting" >
                 <h5 class="card-title">Usability Testing</h5>
-                <p class="card-text">Verificamos la facilidad y<br />la mejor experiencia que puede tener el usuario
-                  al<br />interactuar con la aplicación,<br />app móvil o el desarrollo web.</p><br />
+                <p class="card-text" style="padding-bottom: 10px;">Verificamos la facilidad y la <br/> mejor experiencia que puede tener <br/>el usuario al interactuar con la <br/>aplicación, app móvil o el desarrollo <br>web.</p>
+                <a href="#contactenos" class="btn-card" style="text-decoration: none;">Comenzar</a>
               </div>
             </div>
             <div class="col-md-2"></div>
           </div>
 
           <div class="col-xs-12">
-            <div class="card mb-5 mx-auto cardHover" style="width: 20rem; height: 26rem; border-radius: 1em;">
+            <div class="card mb-5 mx-auto cardHover" style="width: 20rem; height: 29.3rem; border-radius: 1em;">
               <div class="text-center">
-                <img src="img/7gametesting.png" width="350px" alt="GamerTesting" style="padding-right: 20px; padding-top: 30px;">
+                <img src="img/7gametesting.png" width="350px" alt="GamerTesting" style="padding-right: 20px; padding-top: 30px;" id="GamerTesting" >
                 <h5 class="card-title">Gamer Testing</h5>
-                <p class="card-text">Las pruebas de juegos requiere diferentes niveles y un sofisticado proceso tanto en
-                  la experiencia visual, sonido y propiamente en el desarrollo de su software.</p>
+                <p class="card-text">Las pruebas de juegos requiere <br> diferentes niveles y un sofisticado <br> proceso tanto en la experiencia visual, sonido y propiamente en el desarrollo <br> de su software.</p>
+                <a href="#contactenos" class="btn-card" style="text-decoration: none; margin-top: 21px;">Comenzar</a>
               </div>
             </div>
           </div>
@@ -411,8 +412,8 @@
   </div>
 
   <!--formulario-->
-  <div class="container-fluid fondo-3" style="padding-bottom: 10rem;" id="contactenos">
-    <div class="row justify-content-center pt-5">
+  <div class="container-fluid fondo-3" style="padding-bottom: 10rem; background: whitesmoke;" id="contactenos">
+    <div class="row justify-content-center pt-5" style="background-color: whitesmoke;">
       <div class="col-md-8">
         <div class="container fondo-form pt-3">
 
@@ -572,20 +573,13 @@
               <li>
                 <p style="font-weight: 700;">Servicios</p>
               </li>
-              <!-- <li><a>App Testing</a></li>
-            <li><a>Api Testing</a></li>
-            <li><a>Mobile Testing</a></li>
-            <li><a>Performance Testing</a></li>
-            <li><a>Security Testing</a></li>
-            <li><a>Usability Testing</a></li>
-            <li><a>Game Testing</a></li> -->
-              <li><a href="#contactenos">App Testing</a></li>
-              <li><a href="#contactenos">Api Testing</a></li>
-              <li><a href="#contactenos">Mobile Testing</a></li>
-              <li><a href="#contactenos">Performance Testing</a></li>
-              <li><a href="#contactenos">Security Testing</a></li>
-              <li><a href="#contactenos">Usability Testing</a></li>
-              <li><a href="#contactenos">Gamer Testing</a></li>
+              <li><a href="#servicios">App Testing</a></li>
+              <li><a href="#ApiTesting">Api Testing</a></li>
+              <li><a href="#MobileTesting">Mobile Testing</a></li>
+              <li><a href="#PerformanceTesting">Performance Testing</a></li>
+              <li><a href="#SecurityTesting">Security Testing</a></li>
+              <li><a href="#UsabilityTesting">Usability Testing</a></li>
+              <li><a href="#GamerTesting">Gamer Testing</a></li>
             </nav>
           </div>
           <div class="col-6">
@@ -599,8 +593,8 @@
             <li><a>Contacto</a></li> -->
               <li><a href="#">Sobre Nosotros</a></li>
               <li><a href="questions.html">FAQs</a></li>
-              <li><a href="questions2.html">Terminos y Condiciones</a></li>
-              <li><a href="#">Contacto</a></li>
+              <li><a href="#">Terminos y Condiciones</a></li>
+              <li><a href="#contactenos">Contacto</a></li>
             </ul>
           </div>
         </div>
@@ -608,12 +602,16 @@
     </div>
     <div class="row">
       <div class="col-12 text-center">
-        <p style="color: grey; font-size: 1em; margin-top: 6em;">Todos los derechos reservados © 2021 AppTestEasy</p>
+        <p style="color: grey; font-size: 1em; margin-top: 6em;  margin-bottom: 0px">Todos los derechos reservados © 2021</p>
+        <div class="contenido-texto">
+          <p style="color: grey; font-size: 1em; margin: 0em;">www.AppTestEasy.com</p>
+        </div>
       </div>
     </div>
   </div>
 
-
+  <!-- JS -->
+  <script src="js/main.js"></script>
 
   <!-- Optional JavaScript; choose one of the two! -->
 
