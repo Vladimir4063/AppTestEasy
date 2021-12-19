@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>AppTestEasy</title>
+  <link rel="icon" href="img/logo-verdeaguaMARINA.png">
+
+  <link href="css/estilo.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/icon-share.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/styleBootstrap.css">
+
+  <!-- chat bot -->
+  <!-- <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script> -->
+</head>
+
+
+<body>
+  <!--nav-->
+  <nav class="navbar fixed-top navbar-expand-lg w-100 bg-violet pt-3 pb-3">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#inicio"><img src="img/logo_app.png" style="padding-left: 1.5em;" width="220px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" style="margin-right:15px;" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#comotrabajamos">Cómo trabajamos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#beneficios">Beneficios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#servicios">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contactenos">Contáctenos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ingles/index-en.html">EN</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <df-messenger intent="WELCOME" chat-title="AppTestEasy" agent-id="ec2246b7-7f83-4cdd-816d-bf2145183681"
+    language-code="es" chat-icon="img/icon-chatbot.png" height="34"></df-messenger>
+
+  <!--botones-contacto-->
+  <div class="icon-share">
+    <a id="btn-copy" class="icon" onclick="copytoClickBoard()"
+      ><img src="img/boton-compartir-1.png" width="50" alt="icon-share"></a>
+    <!-- <a class="icon" href="https://api.whatsapp.com/send?text=www.apptesteasy.com" onclick="cypyToClipBoard()" target="_blank"><img src="img/boton-compartir-1.png" width="50" alt="icon-share"></a> -->
+    <!-- <a class="icon2" href="#"> <img src="img/boton-compartir-2.png" width="50" alt="icon-mail"></a> -->
+    <a class="icon2" href="https://api.whatsapp.com/send?text=[Hola]"> <img src="img/boton-compartir-3.png" width="50" alt="icon-chat"></a>
+    
+  </div>
+  <div class="mensaje-copy">
+    <p>¡Copiado al portapapeles!</p>
+  </div>
+
+  <!--servicios-->
+  <div class="container-fluid " style="padding-bottom: 10em;" id="servicios">
+    <div class="row text-center mb-5" style="padding-top: 10rem;">
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div style="text-align:left; padding-right: 100px;">
+          <p class="text-Terminos" style="font-size: 34px; padding-top: 100px;">Términos y condiciones.</p>
+        </div>
+        <div class="titulo">
+          <h4>INFORMACIÓN RELEVANTE</h2>
+          <p class="parrafo">
+          Es requisito necesario para la adquisición de los productos que se ofrecen en este sitio, que lea y acepte los
+          siguientes Términos y Condiciones que a continuación se redactan. El uso de
+          nuestros servicios así como la compra de nuestros productos implicará que usted ha leído y aceptado los Términos y
+          Condiciones de Uso en el presente documento. Todas los productos que
+          son ofrecidos por nuestro sitio web pudieran ser creadas, cobradas, enviadas o presentadas por una página web tercera y
+          en tal caso estarían sujetas a sus propios Términos y Condiciones. En
+          algunos casos, para adquirir un producto, será necesario el registro por parte del usuario, con ingreso de datos
+          personales fidedignos y definición de una contraseña.
+          
+          El usuario puede elegir y cambiar la clave para su acceso de administración de la cuenta en cualquier momento, en caso
+          de que se haya registrado y que sea necesario para la compra de
+          alguno de nuestros productos. AppTestEasy no asume la responsabilidad en caso de que entregue dicha clave a terceros.
+          
+          Todas las compras y transacciones que se lleven a cabo por medio de este sitio web, están sujetas a un proceso de
+          confirmación y verificación, el cual podría incluir la verificación del stock y
+          disponibilidad de producto, validación de la forma de pago, validación de la factura (en caso de existir) y el
+          cumplimiento de las condiciones requeridas por el medio de pago seleccionado. En
+          algunos casos puede que se requiera una verificación por medio de correo electrónico.
+          
+          Los precios de los productos ofrecidos en esta Tienda Online es válido solamente en las compras realizadas en este sitio
+          web.
+          </p>
+        </div>
+
+        <div class="titulo" >
+          <h4>LICENCIA</h2>
+            <p class="parrafo">
+              AppTestEasy a través de su sitio web concede una licencia para que los usuarios utilicen los productos que son vendidos
+              en este sitio web de acuerdo a los Términos y Condiciones que se
+              describen en este documento.
+            </p>
+        </div>
+        
+        <div class="titulo" >
+          <h4>USO NO AUTORIZADO</h2>
+            <p class="parrafo">
+              En caso de que aplique (para venta de software, templetes, u otro producto de diseño y programación) usted no puede
+              colocar uno de nuestros productos, modificado o sin modificar, en un
+              CD, sitio web o ningún otro medio y ofrecerlos para la redistribución o la reventa de ningún tipo.
+            </p>
+        </div>
+
+        <div class="titulo">
+          <h4>PROPIEDAD</h2>
+            <p class="parrafo">
+              Usted no puede declarar propiedad intelectual o exclusiva a ninguno de nuestros productos, modificado o sin modificar.
+              Todos los productos son propiedad de los proveedores del contenido.
+              En caso de que no se especifique lo contrario, nuestros productos se proporcionan sin ningún tipo de garantía, expresa o
+              implícita. En ningún esta compañía será responsables de ningún
+              daño incluyendo, pero no limitado a, daños directos, indirectos, especiales, fortuitos o consecuentes u otras pérdidas
+              resultantes del uso o de la imposibilidad de utilizar nuestros productos.
+            </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--footer-->
+  <div class="container-fluid" style="background: #333333; height: 100%;">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col">
+            <img src="img/logo_app.png" class="logo-footer" alt="logo-apptest">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div>
+              <img src="img/icon-email.png" style="float: left;" class="mail" width="25px" alt="icono-sobre">
+              <p style="color: #cccccc;">info@apptesteasy.com</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col-md-6" style="padding-left: 4em; margin-top: 3em;">
+        <div class="row pt-4 text-footer">
+          <div class="col-6">
+            <nav class="lista">
+              <li>
+                <p style="font-weight: 700;">Servicios</p>
+              </li>
+              <li><a href="#servicios">App Testing</a></li>
+              <li><a href="#ApiTesting">Api Testing</a></li>
+              <li><a href="#MobileTesting">Mobile Testing</a></li>
+              <li><a href="#PerformanceTesting">Performance Testing</a></li>
+              <li><a href="#SecurityTesting">Security Testing</a></li>
+              <li><a href="#UsabilityTesting">Usability Testing</a></li>
+              <li><a href="#GamerTesting">Gamer Testing</a></li>
+            </nav>
+          </div>
+          <div class="col-6">
+            <ul class="lista">
+              <li>
+                <p style="font-weight: 700;">Ayuda</p>
+              </li>
+              <!-- <li><a>Sobre Nosotros</a></li>
+            <li><a>FAQs</a></li>
+            <li><a>Terminos y Condiciones</a></li>
+            <li><a>Contacto</a></li> -->
+              <li><a href="#">Sobre Nosotros</a></li>
+              <li><a href="questions.html">FAQs</a></li>
+              <li><a href="#">Terminos y Condiciones</a></li>
+              <li><a href="#contactenos">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 text-center">
+        <p style="color: grey; font-size: 1em; margin-top: 6em;  margin-bottom: 0px">Todos los derechos reservados © 2021</p>
+        <div class="contenido-texto">
+          <p style="color: grey; font-size: 1em; margin: 0em;">www.AppTestEasy.com</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JS -->
+  <script src="js/main.js"></script>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

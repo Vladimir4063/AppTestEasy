@@ -28,3 +28,34 @@
 .text-center{
     padding:10px;
 }
+
+/* terminos y condiciones */
+
+.titulo{
+    color: rgb(36, 36, 36);
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-align: left; 
+    margin:0px 130px;
+    /* hacer responsivo */
+    margin-top: 30px;
+}
+
+.parrafo{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.text-Terminos{
+    padding-left: 100px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+}
+
+@media(max-width: 575px) {
+    .titulo{
+        text-align: center;
+        margin: auto;
+        padding-bottom: 60px;
+    }
+}
