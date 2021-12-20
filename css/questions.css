@@ -1,17 +1,5 @@
-*,
-*::before,
-*::after{
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-}
 
-html{
-    font-family: 'Roboto', sans-serif;
-    /* TamañaLetra */
-    /* font-size:30px; */
-    box-sizing: border-box;
-}
+
 
 /* Section used for centering process */
 /* color #5DEDE8 */
@@ -62,44 +50,12 @@ section{
     padding: 1rem 0;
 }
 
-/* iconos */
-.accordion-link i{
-    color: #e7d5ff;
-    padding: .5rem;
-}
-
-.accordion-link .icon-remove{
-    /* ocultamos el remove */
-    display: none;
-}
 
 /* RESPUESTA */
 /* primero esta oculto */
-.answer{
-    max-height: 0;
-    overflow: hidden;
-    position: relative;
-    background-color: whitesmoke;
-    transition: max-height 650ms;
-}
 
-.answer::before {
-    content: "";
-    position: absolute;
-    width: .6rem;
-    height: 90%;
-    /* color solapa contenido  */
-    background-color: #5DEDE8;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-}
 
-.answer p {
-    color: rgba(255, 255, 255, .6);
-    font-size: 1.4rem;
-    padding: 2rem;
-}
+
 
 /* evento al hacer click en la tarjeta  */
 /* agrandamos el heigth de la propiedad */

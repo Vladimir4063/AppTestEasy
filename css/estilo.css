@@ -17,6 +17,9 @@ body {
     background: linear-gradient(60deg, #FDC244, #F16F56);
 }
 
+.fondo-4{
+    background: linear-gradient(0deg, #c7b1ff, #f1f1f1);
+}
 .btn-contacto {
     display: inline-block;
     border: none;
@@ -117,7 +120,7 @@ body {
 
 .story-margin {
     margin-left: 17%;
-    padding: 6rem 0rem;
+    padding: 0rem 0rem;
 }
 
 .img-fluid {
@@ -128,11 +131,15 @@ body {
     margin-bottom: 6rem;
 }
 
+.row-story-bout {
+    margin-bottom: 0rem;
+}
+
 .tit-story {
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
     color: rgb(36, 36, 36);
-    padding-top: 5rem;
+    /* padding-top: 5rem; */
     padding-right: 3rem;
     margin-bottom: 2rem;
 }
@@ -396,7 +403,7 @@ body {
         font-size: .8em;
     }
     .story-margin {
-        margin-left: 12%;
+        /* margin-left: 12%; */
         padding: 2rem 0rem;
     }
     .tit-mayus {
@@ -624,6 +631,17 @@ body {
     .btn-form {
         justify-content: center;
     }
+
+
+    /* about */
+    .imgAbout{
+        width: 300px;
+    }
+
+    .tit-story{
+        padding-left: 0px;
+    }
+
   }
 
     /*tamaño-mobile-pequeño*/
