@@ -21,14 +21,11 @@
     href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="css/styleBootstrap.css">
-
-  <!-- chat bot -->
-  <!-- <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script> -->
+  
 </head>
 
 
 <body>
-  <!--nav-->
   <nav class="navbar fixed-top navbar-expand-lg w-100 bg-violet pt-3 pb-3">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html"><img src="img/logo_app.png" style="padding-left: 1.5em;" width="220px"></a>
@@ -58,16 +55,34 @@
     </div>
   </nav>
 
-  <df-messenger intent="WELCOME" chat-title="AppTestEasy" agent-id="ec2246b7-7f83-4cdd-816d-bf2145183681"
-    language-code="es" chat-icon="img/icon-chatbot.png" height="34"></df-messenger>
+  <!-- CHAT BOT  -->
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  <df-messenger 
+    intent="WELCOME" 
+    chat-title="AppTestEasy" 
+    chat-icon="img/boton-chat-3.png" 
+    width="45px"
+    agent-id="ec2246b7-7f83-4cdd-816d-bf2145183681"
+    language-code="es">
+  </df-messenger>
+  <meta name="viewport" content="width-device-width, initial-scale=1">
+
+  <style>
+    df-messenger {
+      --df-messenger-bot-message: white;
+      --df-messenger-button-titlebar-color: white;
+      --df-messenger-chat-background-color: white;
+      --df-messenger-font-color: black;
+      --df-messenger-send-icon: #878fac;
+      --df-messenger-user-message: #479b3d;
+    }
+  </style>
 
   <!--botones-contacto-->
   <div class="icon-share">
     <a id="btn-copy" class="icon" onclick="copytoClickBoard()"
       ><img src="img/boton-compartir-1.png" width="50" alt="icon-share"></a>
-    <!-- <a class="icon" href="https://api.whatsapp.com/send?text=www.apptesteasy.com" onclick="cypyToClipBoard()" target="_blank"><img src="img/boton-compartir-1.png" width="50" alt="icon-share"></a> -->
-    <!-- <a class="icon2" href="#"> <img src="img/boton-compartir-2.png" width="50" alt="icon-mail"></a> -->
-    <a class="icon2" href="https://api.whatsapp.com/send?text=[Hola]"> <img src="img/boton-compartir-3.png" width="50" alt="icon-chat"></a>
+    <a class="icon2" href="https://api.whatsapp.com/send?text=[Hola]"> <img src="img/boton-chat-3.png" width="50" alt="icon-chat"></a>
     
   </div>
   <div class="mensaje-copy">
