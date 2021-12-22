@@ -22,16 +22,14 @@
     rel="stylesheet">
   <link rel="stylesheet" href="css/styleBootstrap.css">
 
-  <!-- chat bot -->
-  <!-- <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script> -->
-</head>
+ </head>
 
 
 <body>
   <!--nav-->
   <nav class="navbar fixed-top navbar-expand-lg w-100 bg-violet pt-3 pb-3">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#inicio"><img src="img/logo_app.png" style="padding-left: 1.5em;" width="220px"></a>
+      <a class="navbar-brand" href="index.html"><img src="img/logo_app.png" style="padding-left: 1.5em;" width="220px"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -39,16 +37,16 @@
       <div class="collapse navbar-collapse justify-content-end" style="margin-right:15px;" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#comotrabajamos">Cómo trabajamos</a>
+            <a class="nav-link" href="index.html">Cómo trabajamos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#beneficios">Beneficios</a>
+            <a class="nav-link" href="index.html">Beneficios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#servicios">Servicios</a>
+            <a class="nav-link" href="index.html">Servicios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contactenos">Contáctenos</a>
+            <a class="nav-link" href="index.html">Contáctenos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="ingles/index-en.html">EN</a>
@@ -57,6 +55,9 @@
       </div>
     </div>
   </nav>
+  
+  <!-- chat bot -->
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 
   <df-messenger intent="WELCOME" chat-title="AppTestEasy" agent-id="ec2246b7-7f83-4cdd-816d-bf2145183681"
     language-code="es" chat-icon="img/icon-chatbot.png" height="34"></df-messenger>
@@ -65,9 +66,7 @@
   <div class="icon-share">
     <a id="btn-copy" class="icon" onclick="copytoClickBoard()"
       ><img src="img/boton-compartir-1.png" width="50" alt="icon-share"></a>
-    <!-- <a class="icon" href="https://api.whatsapp.com/send?text=www.apptesteasy.com" onclick="cypyToClipBoard()" target="_blank"><img src="img/boton-compartir-1.png" width="50" alt="icon-share"></a> -->
-    <!-- <a class="icon2" href="#"> <img src="img/boton-compartir-2.png" width="50" alt="icon-mail"></a> -->
-    <a class="icon2" href="https://api.whatsapp.com/send?text=[Hola]"> <img src="img/boton-compartir-3.png" width="50" alt="icon-chat"></a>
+    <a class="icon2" href="#"> <img src="img/boton-chat-3.png" width="50" alt="icon-chat"></a>
     
   </div>
   <div class="mensaje-copy">
@@ -168,13 +167,13 @@
               <li>
                 <p style="font-weight: 700;">Servicios</p>
               </li>
-              <li><a href="#servicios">App Testing</a></li>
-              <li><a href="#ApiTesting">Api Testing</a></li>
-              <li><a href="#MobileTesting">Mobile Testing</a></li>
-              <li><a href="#PerformanceTesting">Performance Testing</a></li>
-              <li><a href="#SecurityTesting">Security Testing</a></li>
-              <li><a href="#UsabilityTesting">Usability Testing</a></li>
-              <li><a href="#GamerTesting">Gamer Testing</a></li>
+              <li><a href="index.html">App Testing</a></li>
+              <li><a href="index.html">Api Testing</a></li>
+              <li><a href="index.html">Mobile Testing</a></li>
+              <li><a href="index.html">Performance Testing</a></li>
+              <li><a href="index.html">Security Testing</a></li>
+              <li><a href="index.html">Usability Testing</a></li>
+              <li><a href="index.html">Gamer Testing</a></li>
             </nav>
           </div>
           <div class="col-6">
@@ -182,14 +181,10 @@
               <li>
                 <p style="font-weight: 700;">Ayuda</p>
               </li>
-              <!-- <li><a>Sobre Nosotros</a></li>
-            <li><a>FAQs</a></li>
-            <li><a>Terminos y Condiciones</a></li>
-            <li><a>Contacto</a></li> -->
-              <li><a href="#">Sobre Nosotros</a></li>
+              <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
               <li><a href="questions.html">FAQs</a></li>
               <li><a href="#">Terminos y Condiciones</a></li>
-              <li><a href="#contactenos">Contacto</a></li>
+              <li><a href="index.html">Contacto</a></li>
             </ul>
           </div>
         </div>

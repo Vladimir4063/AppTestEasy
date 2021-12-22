@@ -22,9 +22,7 @@
     rel="stylesheet">
   <link rel="stylesheet" href="css/styleBootstrap.css">
 
-  <!-- chat bot -->
-  <!-- <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script> -->
-</head>
+  </head>
 
 
 <body>
@@ -39,16 +37,16 @@
       <div class="collapse navbar-collapse justify-content-end" style="margin-right:15px;" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#comotrabajamos">Cómo trabajamos</a>
+            <a class="nav-link" href="index.html">Cómo trabajamos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#beneficios">Beneficios</a>
+            <a class="nav-link" href="index.html">Beneficios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#servicios">Servicios</a>
+            <a class="nav-link" href="index.html">Servicios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contactenos">Contáctenos</a>
+            <a class="nav-link" href="index.html">Contáctenos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="ingles/index-en.html">EN</a>
@@ -58,46 +56,37 @@
     </div>
   </nav>
 
-  <df-messenger intent="WELCOME" chat-title="AppTestEasy" agent-id="ec2246b7-7f83-4cdd-816d-bf2145183681"
-    language-code="es" chat-icon="img/icon-chatbot.png" height="34"></df-messenger>
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  
+  <df-messenger intent="WELCOME" chat-title="AppTestEasy" chat-icon="img/ilustracion_inicio.png" width="45px"
+    agent-id="ec2246b7-7f83-4cdd-816d-bf2145183681" language-code="es">
+  </df-messenger>
+  <meta name="viewport" content="width-device-width, initial-scale=1">
 
   <!--botones-contacto-->
   <div class="icon-share">
     <a id="btn-copy" class="icon" onclick="copytoClickBoard()"
       ><img src="img/boton-compartir-1.png" width="50" alt="icon-share"></a>
-    <!-- <a class="icon" href="https://api.whatsapp.com/send?text=www.apptesteasy.com" onclick="cypyToClipBoard()" target="_blank"><img src="img/boton-compartir-1.png" width="50" alt="icon-share"></a> -->
-    <!-- <a class="icon2" href="#"> <img src="img/boton-compartir-2.png" width="50" alt="icon-mail"></a> -->
-    <a class="icon2" href="https://api.whatsapp.com/send?text=[Hola]"> <img src="img/boton-compartir-3.png" width="50" alt="icon-chat"></a>
+    <a class="icon2" href="#"> <img src="img/boton-chat-3.png" width="50" alt="icon-chat"></a>
     
   </div>
   <div class="mensaje-copy">
     <p>¡Copiado al portapapeles!</p>
   </div>
 
-  <!--inicio-->
-  <!-- <div class="container-fluid fondo margen-sup centrado" id="comotrabajamos">
-    <div class="row pb-5" style="justify-content: center;">
-      <div class="col justify-content-center story-margin">
-        <p class="texto">Tu testing ágil, rápido y profesional como servicio.</p>
-      </div>
-    
-    </div>
-  </div> -->
-
-
-  <!--cómo trabajamos-->
+  <!--Quienes somos-->
   <div class="container-fluid fondo-4" id="comotrabajamos" >
    
     <div class="row">
       <div class="col justify-content-center story-margin">
-          <h2 class="tit-story" style="margin-top: 10rem; margin-left: 80px;">¿Quienes somos?</h2>
+          <h2 class="tit-story">¿Quienes somos?</h2>
         <div class="row row-story-about">
           <div class="col-md-4 text-center">
            
-            <img src="img/sobre-nostros/quienesSomos.gif" class="img-fluid" alt="work team">
+            <img src="img/sobre-nostros/quienesSomos.gif" class="img-fluid aboutImg" alt="work team">
           </div>
           <div class="col-md-8" style="margin-top: 40px;">
-            <p class="text-story" style="padding-bottom: 25px;">Somos una de las empresas líderes en el área de
+            <p class="text-story" style="padding-bottom: 25px; margin-top: 50px;">Somos una de las empresas líderes en el área de
             pruebas de software en Argentina.
             
             Nuestros equipos de testeo incluyen algunos de los
@@ -124,14 +113,14 @@
     </div>
 
     <div class="row">
-      <div class="col">
-        <p class="text-story">
+      <div class="col " style="text-align: center;">
+        <p class="text-story" style="padding: 0px 80px;">
           Te invitamos a seguir leyendo, cómo puedes en cuatro pasos solicitar nuestros
           servicios especializados en testeos, con el fin de asegurar la calidad que necesitas de tus desarrollos, y
           así poder dormir tranquilo.
         </p>
         <img class="imgAbout" src="img/sobre-nostros/CertificadoApp.png" alt="certificadoApp" style="margin: 30px; justify-content: center;">
-        <p class="text-story">
+        <p class="text-story" style="padding: 0px 40px 80px;">
           Te invitamos a seguir leyendo, cómo puedes en cuatro pasos solicitar nuestros
           servicios especializados en testeos, con el fin de asegurar la calidad que necesitas de tus desarrollos, y
           así poder dormir tranquilo.
@@ -169,7 +158,7 @@
               <li>
                 <p style="font-weight: 700;">Servicios</p>
               </li>
-              <li><a href="#servicios">App Testing</a></li>
+              <li><a href="index.html#AppTesting">App Testing</a></li>
               <li><a href="#ApiTesting">Api Testing</a></li>
               <li><a href="#MobileTesting">Mobile Testing</a></li>
               <li><a href="#PerformanceTesting">Performance Testing</a></li>
@@ -183,14 +172,10 @@
               <li>
                 <p style="font-weight: 700;">Ayuda</p>
               </li>
-              <!-- <li><a>Sobre Nosotros</a></li>
-            <li><a>FAQs</a></li>
-            <li><a>Terminos y Condiciones</a></li>
-            <li><a>Contacto</a></li> -->
               <li><a href="#">Sobre Nosotros</a></li>
               <li><a href="questions.html">FAQs</a></li>
               <li><a href="terminos-y-condiciones.html">Terminos y Condiciones</a></li>
-              <li><a href="#contactenos">Contacto</a></li>
+              <li><a href="index.html#contactenos">Contacto</a></li>
             </ul>
           </div>
         </div>

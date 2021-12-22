@@ -142,6 +142,8 @@ body {
     /* padding-top: 5rem; */
     padding-right: 3rem;
     margin-bottom: 2rem;
+    margin-top: 10rem; 
+    margin-left: 80px;
 }
 
 .text-story {
@@ -639,7 +641,11 @@ body {
     }
 
     .tit-story{
-        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    .aboutImg{
+        margin-right: 55px;
     }
 
   }

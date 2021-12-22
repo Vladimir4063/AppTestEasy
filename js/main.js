@@ -4,13 +4,16 @@ const elemento = document.querySelector('.contenido-texto')
 
 document.querySelector('#btn-copy').addEventListener('click',()=>{
     // mensaje copy
-    document.querySelector('.mensaje-copy').classList.add('show');
+    
+    //document.querySelector('.mensaje-copy').classList.add('show');
     
     copytoClickBoard(elemento)
 
-    setTimeout(()=>{
-        document.querySelector('.mensaje-copy').classList.remove('show');
-    },1300)
+    alert("¡Copiado al portapapeles!")
+
+    //setTimeout(()=>{
+        //document.querySelector('.mensaje-copy').classList.remove('show');
+    //},1300)
 })
 
 function copytoClickBoard(elemento){
