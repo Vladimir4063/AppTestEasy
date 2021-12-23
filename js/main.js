@@ -5,15 +5,15 @@ const elemento = document.querySelector('.contenido-texto')
 document.querySelector('#btn-copy').addEventListener('click',()=>{
     // mensaje copy
     
-    //document.querySelector('.mensaje-copy').classList.add('show');
+    document.querySelector('.mensaje-copy').classList.add('show');
     
     copytoClickBoard(elemento)
 
-    alert("¡Copiado al portapapeles!")
+    // alert("¡Copiado al portapapeles!")
 
-    //setTimeout(()=>{
-        //document.querySelector('.mensaje-copy').classList.remove('show');
-    //},1300)
+    setTimeout(()=>{
+        document.querySelector('.mensaje-copy').classList.remove('show');
+    },1300)
 })
 
 function copytoClickBoard(elemento){

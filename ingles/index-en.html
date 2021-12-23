@@ -1,533 +1,632 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
 
   <title>AppTestEasy</title>
-  
+  <link rel="icon" href="../img/logo-verdeaguaMARINA.png">
+
   <link href="../css/estilo.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/icon-share.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../css/styleBootstrap.css">
+  
+</head>
 
-  </head>
 
-
-  <body>
-<!--nav-->
-   <nav class="navbar fixed-top navbar-expand-lg w-100 bg-violet pt-3 pb-3">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#inicio"><img src="../img/logo_app.png" style="padding-left: 1.5em;" width="220px"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" style="margin-right:15px;" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#comotrabajamos">how we work</a>
-              </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#beneficios">benefice</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#servicios">services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contactenos">contact us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../index.html">ES</a>
-              </li>
-             
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-<!--botones-contacto-->
-  <nav class="navbar fixed-top navbar-right compartir-margen">
-    <div class="container-fluid d-inline-block">
-        <div class="col-md-12 text-right w-100"> <button type="button" class="btn-contacto"><img src="../img/boton-compartir-1.png" width="50vw"></button></div>
-        <div class="col-md-12 text-right w-100"> <button type="button" class="btn-contacto"><img src="../img/boton-compartir-2.png" width="50vw"></button></div>
-        <div class="col-md-12 text-right w-100"> <button type="button" class="btn-contacto"><img src="../img/boton-compartir-3.png" width="50vw"></button></div>
+<body>
+  <!-- NAV -->
+  <nav class="navbar fixed-top navbar-expand-lg w-100 bg-violet pt-3 pb-3">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="../img/logo_app.png" style="padding-left: 1.5em;" width="220px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" style="margin-right:15px;" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#comotrabajamos">How we work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#beneficios">Benefice</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#servicios">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contactenos">Contact us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">ES</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
 
-<!--inicio-->
-    <div class="container-fluid fondo margen-sup centrado" id="inicio">
-        <div class="row pb-5" style="justify-content: center;">
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="padding: 4rem">
-                <p class="texto">Your agile, fast and professional testing as a service</p>
-                <p class="parrafo">We are a team of professionals dedicated to testing and testing, with extensive experience in different industries. We cover all testing needs in your company's digital value chain. We work with agile, collaborative teams and with tools created to provide quality results.</p>
-                <button type="button" class="btn-comenzar"><a href="#contactenos" style="color: white; text-decoration: none;">get started now</a></button>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-center">
-              <img src="../img/ilustracion_inicio.png" class="ilus" alt="testing work">
-            </div>
-        </div>
-    </div>
-
-
-<!--estadísticas-->
-    <div class="container-fluid cuerpo">
-      <div class="row mt-3">
-        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 text-center">
-          <h3 class="est-num">+260.000</h3>
-          <p class="est-text">reported bugs</p>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 text-center">
-          <h3 class="est-num">+9.000</h3>
-          <p class="est-text">tests carried out</p>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 text-center">
-          <h3 class="est-num">+1.000</h3>
-          <p class="est-text">happy customers</p>
-        </div>
-      </div>
-    </div>
-
-<!--cómo trabajamos-->
-    <div class="container-fluid cuerpo" id="comotrabajamos">
-      <div class="row mb-5">
-        <div class="col justify-content-center story-margin">
-
-
-          <div class="row row-story">
-            <div class="col-md-6">
-              <h2 class="tit-story">Am I sure my developments are bug-free?</h2>
-              <p class="text-story">Application and web developments have limitations that developers due to knowledge or time do not develop with quality. Error control will allow you to ensure the desired level of quality that does not impact your users and end customers.</p>
-              </div>
-              <div class="col-md-5 text-center">
-              <img src="../img/story_img-1.png" class="img-fluid" alt="women tester">
-              </div>
-            </div>
-          <div class="row row-story">
-            <div class="col-md-5 text-center">
-              <img src="../img/story_img-2.png" class="img-fluid" alt="work team">
-            </div>
-            <div class="col-md-6">
-              <h2 class="tit-story">Do I need help from a professional testing team?</h2>
-              <p class="text-story">A testing team is not the same as the one that develops it, and assembling it with professionals requires a workflow in all languages, methodologies and technologies to be able to face any challenge.</p>
-            </div>
-          </div>
-          <div class="row row-story">
-            <div class="col-md-6">
-              <h2 class="tit-story">How do I get results fast and safe?</h2>
-              <p class="text-story">We invite you to continue reading, how you can request our specialized testing services in four steps, in order to ensure the quality you need from your developments, and thus be able to sleep peacefully.</p>
-            </div>
-            <div class="col-md-5 text-center">
-              <img src="../img/story_img-3.png" class="img-fluid" alt="working">
-            </div>
-          </div>
-        </div>
-        
-      </div>
-    </div>
-
-<!--cómo comenzar-->
-    <div class="container-fluid cuerpo">
-      <div class="row text-center">
-        <div class="col text-center texto mb-4">
-          <h1>how to start?</h1>
-        </div>
-      </div>
-    <div class="row" style="justify-content: center;">
-    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
-    <div class="col-8 text-center">
-      <div class="row mt-4 text-center">
-        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-          <img src="../img/1.png" height="38px" class="num-pasos" alt="1">
-          <h3 class="tit-mayus">choose</h3>
-          <p class="p-pasos">the type of testing according to your needs.</p>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-          <img src="../img/2.png" height="38px" class="num-pasos" alt="2">
-          <h3 class="tit-mayus">complete</h3>
-          <p class="p-pasos">the request with your data and make the payment.</p>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-          <img src="../img/3.png" height="38px" class="num-pasos" alt="3">
-          <h3 class="tit-mayus">gives</h3>
-          <p class="p-pasos">the accesses to perform the testing.</p>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-          <img src="../img/4.png" height="38px" class="num-pasos" alt="4">
-          <h3 class="tit-mayus">receives</h3>
-          <p class="p-pasos">the full bug, anomaly and test report.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
-    </div>
+  <!-- CHAT BOT  -->
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
   
-      <div class="row text-center mt-5 mb-5">
-        <div class="col-12">
-          <button type="button" class="btn-violet"><a href="#contactenos" style="color: white; text-decoration: none;">get started</a></button>
-        </div>
-      </div>
-    </div>
+  <df-messenger 
+    intent="WELCOME" 
+    chat-title="AppTestEasy" 
+    chat-icon="../img/ilustracion_inicio.png" 
+    width="45px"
+    agent-id="ec2246b7-7f83-4cdd-816d-bf2145183681"
+    language-code="es">
+  </df-messenger>
+  <meta name="viewport" content="width-device-width, initial-scale=1">
 
-<!--testimonios-->
-  <div class="container-fluid cuerpo">
-  <div class="row">
-   <div class="col text-center texto mb-5">
-     <h1 style="color: #5C1CFF; margin-top: 5rem;">what do you think of our services...</h1>
-   </div>
-  </div>
-  <div class="row justify-content-center mt-5">
-    <div class="col-md-10">
-     <div class="row text-center">
-      <div class="col-md-4">
-      <img src="../img/testimonios-1.png" class="img-testim" alt="Débora S.">
-      <h4 class="mt-4 mb-3 tit-testim">Débora S.</h4>
-      <p class="testim">"Our testing area is carried out with the AppTestEasy team, for the professionalism and trust in their results. They provide a quality of service, fast and effective that we allow focusing on the core of the business."</p>
-      <img src="../img/estrellas.png" class="estrellas" alt="calificación">
-       </div>
-      <div class="col-md-4">
-      <img src="../img/testimonios-2.png" class="img-testim" alt="Mariano P.">
-      <h4 class="mt-4 mb-3 tit-testim">Mariano P.</h4>
-      <p class="testim">“His experience in the financial industry helped us to carry out the testing that we request, with quality and professionalism. We are very happy for the agility in their response to the requested testing services."</p>
-      <img src="../img/estrellas.png" class="estrellas" alt="calificación">
-       </div>
-      <div class="col-md-4">
-      <img src="../img/testimonios-3.png" class="img-testim" alt="María Clara R.">
-      <h4 class="mt-4 mb-3 tit-testim">María Clara R.</h4>
-      <p class="testim">“We request a security test on the platform where we offer our products, and we quickly receive results of errors that could have affected our business in the experience and safety of our customers."</p>
-      <img src="../img/estrellas.png" class="estrellas" alt="calificación">
-    </div>
-   </div>
-  </div>
- </div>
-</div>
+  <style>
+    df-messenger {
+      --df-messenger-bot-message: white;
+      --df-messenger-button-titlebar-color: red;
+      --df-messenger-chat-background-color: white;
+      --df-messenger-font-color: black;
+      --df-messenger-send-icon: #878fac;
+      --df-messenger-user-message: #479b3d;
+    }
+  </style>
 
-<!--beneficios-->
-  <div class="container-fluid cuerpo" id="beneficios">¡
-  <div class="row text-center mb-5" style="padding-top: 6rem;">
-    <div class="col-md-2"></div>
-    <div class="col-md-8" style="margin-top: 5rem;">
-      <h1 class="texto mb-3" style="color: #5C1CFF;">Why do professional testing?</h1>
-      <p class="subtit">Testing provides the quality of development that companies deliver to their end customers, that is why they must be developed agilely by professionals, with experience and without implying a higher cost in their budget.</p>
-    </div>
-    <div class="col-md-2"></div>
-  </div>
-<div class="row justify-content-center">
-  <div class="col-1"></div>
- <div class="col-10">
-  <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-6">
-      <div class="row">
-        <div class="col-md-3 marg-icon">
-          <img src="../img/Icon-celeste-1.png" class="iconos">
-        </div>
-        <div class="col-md-8">
-          <h4 class="tit-mayus" style="font-style: normal;">NO EXTRA COST</h4>
-          <p class="p-beneficios">No need to spend extra time, money, and resources building a test kitinternal to the company, nor is the technology and associated tools necessary. You will only pay for the testing service you need at this time.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-xs-12 col-sm-12 col-md-6">
-      <div class="row">
-        <div class="col-md-3 marg-icon">
-          <img src="../img/icon-celeste-2.png" class="iconos">
-        </div>
-        <div class="col-md-8">
-          <h4 class="tit-mayus" style="font-style: normal;">PROFESSIONAL EXPERIENCE</h4>
-          <p class="p-beneficios">A team specialized in testing, entails a differential added value to which it could be constituted temporarily in a company, providing objectivity independent of the development team.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-6">
-      <div class="row">
-        <div class="col-md-3 marg-icon">
-          <img src="../img/icon-celeste-3.png" class="iconos">
-        </div>
-        <div class="col-md-8">
-          <h4 class="tit-mayus" style="font-style: normal;">AGILITY AND COLLABORATION</h4>
-          <p class="p-beneficios">The work teams are dynamically formed according to the knowledge of software, platforms, languages, technologies and tools that need to be tested.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-xs-12 col-sm-12 col-md-6">
-      <div class="row">
-        <div class="col-md-3 marg-icon">
-          <img src="../img/icon-celeste-4.png" class="iconos">
-        </div>
-        <div class="col-md-8">
-          <h4 class="tit-mayus" style="font-style: normal;">GUARANTEED SPECIALIZATION</h4>
-          <p class="p-beneficios">The members of our team specialize in certain technologies and methodologies ofwork, guaranteeing the depth of the types of testing offered.</p>
-        </div>
-      </div>
-    </div>
-  </div>
- </div>
- <div class="col-1"></div>
-</div>
-  </div>
-
-<!--servicios-->
-<div class="container-fluid fondo-2" style="padding-bottom: 10em;" id="servicios">
-  <div class="row text-center mb-5" style="padding-top: 10rem;">
-    <div class="col-md-2"></div>
-    <div class="col-md-8">
-      <h1 class="texto mb-3" style="color: #5C1CFF;">hire their service</h1>
-      <p class="subtit">We combine our diverse technical knowledge and professional experience in different types of testing, providing quality control solutions and testing of software developments.</p>
-    </div>
-    <div class="col-md-2"></div>
-  </div>
-<div class="row justify-content-center pt-5">
-  <div class="col-md-9">
-   <div class="row mb-5">
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-      <div class="card mb-5 mx-auto" style="width: 18rem; border-radius: 1em;">
-        <div class="card-body text-center">
-          <h5 class="card-title">app testing</h5>
-          <p class="card-text">We perform functional tests throughout the software development process or after its productive launch, including manual, regression and automatic testing.</p>
-          <a href="#contactenos" class="btn-card" style="text-decoration: none;">get a test</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-      <div class="card mb-5 mx-auto" style="width: 18rem; border-radius: 1em;">
-        <div class="card-body text-center">
-          <h5 class="card-title">api testing</h5>
-          <p class="card-text">We guarantee that the programming interfaces of your application comply with thefunctionality, reliability, performance and security.</p><br/>
-          <a href="#contactenos" class="btn-card" style="text-decoration: none;">get a test</a>
-        </div>
-     </div>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4"> 
-      <div class="card mb-5 mx-auto" style="width: 18rem; border-radius: 1em;">
-      <div class="card-body text-center">
-        <h5 class="card-title">mobile testing</h5>
-        <p class="card-text">We test mobile applications<br>on real devices, on iOS<br>and Android, ensuring<br>user experience and<br>functionality required.</p><br/>
-        <a href="#contactenos" class="btn-card" style="text-decoration: none;">get a test</a>
-      </div>
-      </div>
-   </div>
-   
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4"> 
-      <div class="card mb-5 mx-auto" style="width: 18rem; border-radius: 1em;">
-      <div class="card-body text-center">
-        <h5 class="card-title">performance testing</h5>
-        <p class="card-text">We develop non-functional tests of performance, load, stress, volume and reliability of your developments and the infrastructure where they are located implemented.</p>
-        <a href="#contactenos" class="btn-card" style="text-decoration: none;">get a test</a>
-      </div>
-   </div></div>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-      <div class="card mb-5 mx-auto" style="width: 18rem; border-radius: 1em;">
-        <div class="card-body text-center">
-          <h5 class="card-title">security testing</h5>
-          <p class="card-text">We discovered vulnerabilities in development and if the protection of data privacy is being adequate against cyberattacks or cyber threats.</p><br/>
-          <a href="#contactenos" class="btn-card" style="text-decoration: none;">get a test</a>
-        </div>
-     </div>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-      <div class="card mb-5 mx-auto" style="width: 18rem; border-radius: 1em;">
-        <div class="card-body text-center">
-          <h5 class="card-title">usability testing</h5>
-          <p class="card-text">We verify the ease and the best experience that the user can have when interacting with the application, mobile app or web development.</p><br/>
-          <a href="#contactenos" class="btn-card" style="text-decoration: none;">get a test</a>
-        </div>
-     </div>
-     <div class="col-md-2"></div>
-    </div>
-
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-      <div class="card mb-5 mx-auto" style="width: 18rem; border-radius: 1em;">
-        <div class="card-body text-center">
-          <h5 class="card-title">gamer testing</h5>
-          <p class="card-text">Game tests requires different levels and a sophisticated process both in the visual experience, in the sound and in the development of its software itself.</p>
-          <a href="#contactenos" class="btn-card" style="text-decoration: none;">get a test</a>
-        </div>
-     </div>
-    </div>
-   </div>
-  </div>
-</div>
-</div>
-
-<!--formulario-->
- <div class="container-fluid fondo-3" style="padding-bottom: 10rem;" id="contactenos">
-  <div class="row justify-content-center pt-5">
-    <div class="col-md-8">
-      <div class="container fondo-form pt-3">
-      
-       <div class="row padd-form pb-4">
-          <h1 class="texto mt-5 mb-2" style="color: white">I want my test </h1>
-          <p style="color: white;">In case you need some unique services or have doubts about some detail of theproject, specify your wishes and project details in the comment field.</p>
-       </div>
-
-      <div class="row padd-form">
+  <!--botones-contacto-->
+  <div class="icon-share">
+    <a id="btn-copy" class="icon" onclick="copytoClickBoard()"
+      ><img src="../img/boton-compartir-1.png" width="50" alt="icon-share"></a>
+    <a class="icon2" href="#"> <img src="../img/boton-chat-3.png" width="50" alt="icon-chat"></a>
     
-      <div class="col-md-8">
-    <form>
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label input-form">name*</label>
-        <input type="name" name="name" class="form-control" style="background: transparent; border: solid 2px white; color: white;" id="exampleFormControlInput1">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlInput2" class="form-label input-form">email*</label>
-        <input type="email" class="form-control" style="background: transparent; border: solid 2px white; color: white;" id="exampleFormControlInput2">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlInput3" class="form-label input-form">company</label>
-        <input type="compañía" class="form-control" style="background: transparent; border: solid 2px white; color: white;" id="exampleFormControlInput3">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlInput4" class="form-label input-form">phone</label>
-        <input type="teléfono" class="form-control" style="background: transparent; border: solid 2px white; color: white;" id="exampleFormControlInput4">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlInput5" class="form-label input-form">country*</label>
-        <input type="país" class="form-control" style="background: transparent; border: solid 2px white; color: white;" id="exampleFormControlInput5">
-      </div>
+  </div>
+  
 
-      <div class="row">
-        <div class="col-md-12">
-          <p style="color: white; padding-top: 2em;">What service do you need?*</p>
-          <div class="row">
-            <div class="col">
-              <div class="form-check">
-                <input class="form-check-input" style="background-color: transparent; border: solid white 2px;" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label text-check" for="flexCheckDefault">
-                  app testing
-                </label>
+  <!--inicio-->
+  <div class="container-fluid fondo margen-sup centrado" id="comotrabajamos">
+    <div class="mensaje-copy">
+      <p>¡Copiado al portapapeles!</p>
+    </div>
+    <div class="row pb-5" style="justify-content: center;">
+      <div class="col justify-content-center story-margin">
+        <p class="texto">Your agile, fast and professional testing as a service.</p>
+        <p class="text-story">We are a team of professionals dedicated to testing and testing, with extensive experience in different industries. We
+        cover all testing needs in your company's digital value chain. We work with agile, collaborative teams and with tools
+        created to provide quality results.
+        </p>
+        <button type="button" class="btn-comenzar"><a href="#contactenos"
+            style="color: white; text-decoration: none;">Get started now</a></button>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center">
+        <img src="../img/ilustracion_inicio.png" class="ilus" alt="testing work">
+      </div>
+    </div>
+  </div>
+
+  <!--estadísticas-->
+  <div class="container-fluid cuerpo">
+    <div class="row mt-3">
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 text-center">
+        <h3 class="est-num">+260.000</h3>
+        <p class="est-text">Reported bugs</p>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 text-center">
+        <h3 class="est-num">+9.000</h3>
+        <p class="est-text">Tests carried out</p>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 text-center">
+        <h3 class="est-num">+1.000</h3>
+        <p class="est-text">Happy customers</p>
+      </div>
+    </div>
+  </div>
+
+  <!--cómo trabajamos-->
+  <div class="container-fluid cuerpo" id="comotrabajamos">
+    <div class="row mb-5">
+      <div class="col justify-content-center story-margin">
+        <div class="row row-story">
+          <div class="col-md-6">
+            <h2 class="tit-story">¿Am I sure my developments are bug-free?</h2>
+            <p class="text-story">Application and web developments have limitations that developers due to knowledge or time do not develop with quality.
+            Error control will allow you to ensure the desired level of quality that does not impact your users and end customers.</p>
+          </div>
+          <div class="col-md-5 text-center">
+            <img src="../img/story_img-1.png" class="img-fluid" alt="women tester">
+          </div>
+        </div>
+        <div class="row row-story">
+          <div class="col-md-5 text-center">
+            <img src="../img/story_img-2.png" class="img-fluid" alt="work team">
+          </div>
+          <div class="col-md-6">
+            <h2 class="tit-story">¿Do I need help from a professional testing team?</h2>
+            <p class="text-story">A testing team is not the same as the one that develops it, and assembling it with professionals requires a workflow in
+            all languages, methodologies and technologies to be able to face any challenge.
+            </p>
+          </div>
+        </div>
+        <div class="row row-story">
+          <div class="col-md-6">
+            <h2 class="tit-story">¿How do I get results fast and safe?</h2>
+            <p class="text-story">We invite you to continue reading, how you can request our specialized testing services in four steps, in order to
+            ensure the quality you need from your developments, and thus be able to sleep peacefully.</p>
+          </div>
+          <div class="col-md-5 text-center">
+            <img src="../img/story_img-3.png" class="img-fluid" alt="working">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--cómo comenzar-->
+  <div class="container-fluid cuerpo">
+    <div class="row text-center">
+      <div class="col text-center texto mb-4">
+        <h1>¿How to start?</h1>
+      </div>
+    </div>
+    <div class="row" style="justify-content: center;">
+      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+      <div class="col-8 text-center">
+        <div class="row mt-4 text-center">
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+            <img src="../img/1.png" height="38px" class="num-pasos" alt="1">
+            <h3 class="tit-mayus">Choose</h3>
+            <p class="p-pasos">The type of testing according to your needs.</p>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+            <img src="../img/2.png" height="38px" class="num-pasos" alt="2">
+            <h3 class="tit-mayus">Complete</h3>
+            <p class="p-pasos">The request with your data and make the payment.</p>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+            <img src="../img/3.png" height="38px" class="num-pasos" alt="3">
+            <h3 class="tit-mayus">Gives</h3>
+            <p class="p-pasos">The accesses to perform the testing.</p>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+            <img src="../img/4.png" height="38px" class="num-pasos" alt="4">
+            <h3 class="tit-mayus">Receives</h3>
+            <p class="p-pasos">The full bug, anomaly and test report.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+    </div>
+
+    <div class="row text-center mt-5 mb-5">
+      <div class="col-12">
+        <button type="button" class="btn-violet"><a href="#contactenos"
+            style="color: white; text-decoration: none;">Get started</a></button>
+      </div>
+    </div>
+  </div>
+
+  <!--testimonios-->
+  <div class="container-fluid cuerpo">
+    <div class="row">
+      <div class="col text-center texto mb-5">
+        <h1 style="color: #5C1CFF; margin-top: 5rem;">What do you think of our services...</h1>
+      </div>
+    </div>
+    <div class="row justify-content-center mt-5">
+      <div class="col-md-10">
+        <div class="row text-center">
+          <div class="col-md-4">
+            <img src="../img/testimonios-1.png" class="img-testim" alt="Débora S.">
+            <h4 class="mt-4 mb-3 tit-testim">Débora S.</h4>
+            <p class="testim">“Our testing area is carried out with the AppTestEasy team, for the professionalism and trust in their results. They
+            provide a quality of service, fast and effective that we allow focusing on the core of the business.”</p>
+            <img src="../img/estrellas.png" class="estrellas" alt="calificación">
+          </div>
+          <div class="col-md-4">
+            <img src="../img/testimonios-2.png" class="img-testim" alt="Mariano P.">
+            <h4 class="mt-4 mb-3 tit-testim">Mariano P.</h4>
+            <p class="testim">“His experience in the financial industry helped us to carry out the testing that we request, with quality and
+            professionalism. We are very happy for the agility in their response to the requested testing services.”</p>
+            <img src="../img/estrellas.png" class="estrellas" alt="calificación">
+          </div>
+          <div class="col-md-4">
+            <img src="../img/testimonios-3.png" class="img-testim" alt="María Clara R.">
+            <h4 class="mt-4 mb-3 tit-testim">María Clara R.</h4>
+            <p class="testim">“We request a security test on the platform where we offer our products, and we quickly receive results of errors that
+            could have affected our business in the experience and safety of our customers.”</p>
+            <img src="../img/estrellas.png" class="estrellas" alt="calificación">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--beneficios-->
+  <div class="container-fluid cuerpo" id="beneficios">¡
+    <div class="row text-center mb-5" style="padding-top: 6rem;">
+      <div class="col-md-2"></div>
+      <div class="col-md-8" style="margin-top: 5rem;">
+        <h1 class="texto mb-3" style="color: #5C1CFF;">¿Why do professional testing</h1>
+        <p class="subtit">Testing provides the quality of development that companies deliver to their end customers, that is why they must be
+        developed agilely by professionals, with experience and without implying a higher cost in their budget.</p>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-1"></div>
+      <div class="col-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="row">
+              <div class="col-md-3 marg-icon">
+                <img src="../img/Icon-celeste-1.png" class="iconos">
               </div>
-              <div class="form-check">
-                <input class="form-check-input" style="background-color: transparent; border: solid white 2px;" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label text-check" for="flexCheckDefault">
-                  performance testing
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" style="background-color: transparent; border: solid white 2px;" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label text-check" for="flexCheckDefault">
-                  game testing
-                </label>
+              <div class="col-md-8 col-lg-7 col-xl-8">
+                <h4 class="tit-mayus" style="font-style: normal;">NO EXTRA COST</h4>
+                <p class="p-beneficios">No need to spend extra time, money, and resources building a test kitinternal to the company, nor is the technology and
+                associated tools necessary. You will only pay for the testing service you need at this time.</p>
               </div>
             </div>
-            <div class="col">
-              <div class="form-check">
-                <input class="form-check-input" style="background-color: transparent; border: solid white 2px;" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label text-check" for="flexCheckDefault">
-                  api testing
-                </label>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="row">
+              <div class="col-md-3 marg-icon">
+                <img src="../img/icon-celeste-2.png" class="iconos">
               </div>
-              <div class="form-check">
-                <input class="form-check-input" style="background-color: transparent; border: solid white 2px;" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label text-check" for="flexCheckDefault">
-                  security testing
-                </label>
-              </div>
-           
-            </div>
-            <div class="col">
-              <div class="form-check">
-                <input class="form-check-input" style="background-color: transparent; border: solid white 2px;" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label text-check" for="flexCheckDefault">
-                  mobile testing
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" style="background-color: transparent; border: solid white 2px;" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label text-check" for="flexCheckDefault">
-                  usability testing
-                </label>
-              </div>
+              <div class="col-md-8 col-lg-7 col-xl-8">
+                <h4 class="tit-mayus" style="font-style: normal;">PROFESSIONAL EXPERIENCE</h4>
+                <p class="p-beneficios">A team specialized in testing, entails a differential added value to which it could be constituted temporarily in a
+                company, providing objectivity independent of the development team.</p>
               </div>
             </div>
           </div>
         </div>
-        <p style="color: white; padding-top: 2em;">Indicate the path of applications or sites to test*</p>
-         <div class="mb-3">
-         <textarea class="form-control" style="background: transparent; border: solid 2px white; color: white;" id="exampleFormControlTextarea1" rows="3"></textarea>
-         </div> 
-      
-      <button type="button" class="btn-celeste float-end btn-form">contract</button>
-    </form>
-      </div>
-        <div class="col-md-4 mb-5 text-center">
-          <img src="../img/we-answer-you.png" width="80%" class="te-respondemos" alt="we we-answer-you">
-        </div>
-       </div>
-      </div>
-  </div>
- </div>
-</div>
 
-<!--footer-->
-<div class="container-fluid" style="background: #333333; height: 100%;">
-  <div class="row">
-    <div class="col-md-6">
-      <div class="row">
-        <div class="col">
-         <img src="../img/logo_app.png" class="logo-footer" alt="logo-apptest">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="row">
+              <div class="col-md-3 marg-icon">
+                <img src="../img/icon-celeste-3.png" class="iconos">
+              </div>
+              <div class="col-md-8 col-lg-7 col-xl-8">
+                <h4 class="tit-mayus" style="font-style: normal;">AGILITY AND COLLABORATION</h4>
+                <p class="p-beneficios">The work teams are dynamically formed according to the knowledge of software, platforms, languages, technologies and
+                tools that need to be tested.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="row">
+              <div class="col-md-3 marg-icon">
+                <img src="../img/icon-celeste-4.png" class="iconos">
+              </div>
+              <div class="col-md-8 col-lg-7 col-xl-8">
+                <h4 class="tit-mayus" style="font-style: normal;">GUARANTEED SPECIALIZATION</h4>
+                <p class="p-beneficios">The members of our team specialize in certain technologies and methodologies ofwork, guaranteeing the depth of the types
+                of testing offered.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-12">
-          <div>
-          <img src="../img/icon-email.png" style="float: left;" class="mail" width="25px" alt="icono-sobre">
-          <p style="color: #cccccc;">info@apptesteasy.com</p>
-        </div>
-        </div>
-
-      </div>
-      
-    </div>
-    <div class="col-md-6" style="padding-left: 4em; margin-top: 3em;">
-      <div class="row pt-4 text-footer">
-        <div class="col-6">
-          <ul class="lista">
-            <li><p style="font-weight: 700;">services</p></li>
-            <li><a>app testing</a></li>
-            <li><a>api testing</a></li>
-            <li><a>mobile testing</a></li>
-            <li><a>performance testing</a></li>
-            <li><a>security testing</a></li>
-            <li><a>usability testing</a></li>
-            <li><a>game testing</a></li>
-         </ul>
-        </div>
-        <div class="col-6">
-          <ul class="lista">
-            <li><p style="font-weight: 700;">help</p></li>
-            <li><a>about us</a></li>
-            <li><a>FAQs</a></li>
-            <li><a>terms and conditions</a></li>
-            <li> <a>contact</a></li>
-          </ul>
-        </div>
-      </div>
+      <div class="col-1"></div>
     </div>
   </div>
-  <div class="row">
-     <div class="col-12 text-center">
-          <p style="color: grey; font-size: 1em; margin-top: 6em;">All rights reserved © 2021 AppTestEasy</p>
-     </div>
+
+  <!--servicios-->
+  <div class="container-fluid fondo-2" style="padding-bottom: 10em;" id="servicios">
+    <div class="row text-center mb-5" style="padding-top: 10rem;">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <h1 class="texto mb-3" style="color: #5C1CFF;">Contrate su servicio</h1>
+        <p class="subtit">Combinamos nuestros diversos conocimientos técnicos y experiencia profesional en diferentes
+          tipos de testing brindando soluciones de control de calidad y pruebas de desarrollos de software.</p>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+    <!-- start hover  -->
+    <div class="row justify-content-center pt-5 hola">
+      <div class="col-md-9">
+        <div class="row mb-5">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="card mb-5 mx-auto cardHover" style="width: 20rem;  height: 29.3rem; border-radius: 1em;">
+              <div class="text-center">
+                <img src="../img/1App_testing.png" width="330px" alt="AppTesting" id="AppTesting">
+                <h5 class="card-title">App Testing</h5>
+                <p>Realizamos pruebas funcionales en todo el proceso de desarrollo de software o posterior a su
+                  lanzamiento productivo, incluyendo testeos manuales, de regresión y automáticos.</p>
+                <a href="#contactenos" class="btn-card" style="text-decoration: none;">Comenzar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="card mb-5 mx-auto cardHover" style="width: 20rem; height: 29.3rem; border-radius: 1em;">
+              <div class="text-center">
+                <img src="../img/2Api_Testing.png" width="280px" alt="ApiTesting" style="padding-top: 10px;" id="ApiTesting">
+                <h5 class="card-title">Api Testing</h5>
+                <p class="card-text" style="padding: 13px; padding-bottom: 0px; padding-top: 8px;">
+                  Garantizamos que las de <br/> programación de su aplicación cumplan la funcionalidad, confiabilidad, rendimiento y seguridad.</p>
+                <a href="#contactenos" class="btn-card" style="text-decoration: none;">Comenzar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="card mb-5 mx-auto cardHover" style="width: 20rem; height: 29.3rem; border-radius: 1em;">
+              <div class="text-center">
+                <img src="../img/3Mobile_testing.png" width="290px" height="190px" alt="MobileTesting" style="padding-top: 10px;" id="MobileTesting">
+                <h5 class="card-title">Mobile Testing</h5>
+                <p style="padding-top: 8px;">Realizamos pruebas de <br>aplicaciones móviles en dispositivos reales, en iOS y Android, asegurando <br> la experiencia del usuario y la funcionalidad requerida.</p>
+                <a href="#contactenos" class="btn-card" style="text-decoration: none;" id="UsabilityTesting" >Comenzar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="card mb-5 mx-auto cardHover" style="width: 20rem; height: 29.3rem; border-radius: 1em;">
+              <div class="text-center">
+                <img src="../img/4performance-testing-graphics.svg" width="280px" alt="PerformanceTesing" id="PerformanceTesting">
+                <h5 class="card-title">Performance Testing</h5>
+                <p class="card-text">Desarrollamos pruebas no funcionales de rendimiento, carga, estrés, volumen y confiabilidad de sus desarrollos y la infraestructura donde se encuentran implementados. </p>
+                <a href="#contactenos" class="btn-card" style="text-decoration: none; margin-top: 6px;">Comenzar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="card mb-5 mx-auto cardHover" style="width: 20rem; height: 29.3rem; border-radius: 1em;">
+              <div class="text-center">
+                <img src="../img/5security_testing.png" width="300px" alt="SecurityTesting" id="SecurityTesting" >
+                <h5 class="card-title" style="padding-top: 15px;" >Security Testing</h5>
+                <p class="card-text" style="padding-top: 2px;">Descubrimos vulnerabilidades del desarrollo y si la protección de la privacidad de los datos está siendo la adecuada frente a ciberataques o ciberamenazas.</p>
+                <a href="#contactenos" class="btn-card" style="text-decoration: none;"  >Comenzar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4" >
+            <div class="card mb-5 mx-auto cardHover" style="width: 20rem; height: 29.3rem; border-radius: 1em;">
+              <div class="text-center">
+                <img src="../img/6usability.png" width="300px" alt="UsabilityTesting" >
+                <h5 class="card-title">Usability Testing</h5>
+                <p class="card-text" style="padding-bottom: 10px;">Verificamos la facilidad y la <br/> mejor experiencia que puede tener <br/>el usuario al interactuar con la <br/>aplicación, app móvil o el desarrollo <br>web.</p>
+                <a href="#contactenos" class="btn-card" style="text-decoration: none;" id="GamerTesting">Comenzar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12">
+            <div class="card mb-5 mx-auto cardHover" style="width: 20rem; height: 29.3rem; border-radius: 1em;">
+              <div class="text-center">
+                <img src="../img/7gametesting.png" width="350px" alt="GamerTesting" style="padding-right: 20px; padding-top: 30px;" >
+                <h5 class="card-title">Gamer Testing</h5>
+                <p class="card-text">Las pruebas de juegos requiere <br> diferentes niveles y un sofisticado <br> proceso tanto en la experiencia visual, sonido y propiamente en el desarrollo <br> de su software.</p>
+                <a href="#contactenos" class="btn-card" style="text-decoration: none; margin-top: 21px;">Comenzar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
 
+  <!--formulario-->
+  <div class="container-fluid fondo-3" style="padding-bottom: 10rem; background: whitesmoke;" id="contactenos">
+    <div class="row justify-content-center pt-5" style="background-color: whitesmoke;">
+      <div class="col-md-8">
+        <div class="container fondo-form pt-3">
+  
+          <div class="row padd-form pb-4">
+            <h1 class="texto mt-5 mb-2" style="color: white">Quiero mi testing</h1>
+            <p style="color: white;">En caso de que necesite algunos servicios únicos o tenga dudas sobre algún detalle
+              del proyecto,<br />especifique sus deseos y los detalles del proyecto en el campo de comentarios.</p>
+          </div>
+          <!-- formSubmit -->
+          <div class="row padd-form">
+            <div class="col-md-8">
+              <form target="_blank" action="https://formsubmit.co/vladimirgutierrez4063@gmail.com" method="POST">
+                <div class="form-group">
+                  <div class="form-row">
+                    <div class="col mb-3">
+                      <label for="exampleFormControlInput1" class="form-label input-form">Nombre*</label>
+                      <input type="text" name="name" class="form-control"
+                        style="background: transparent; border: solid 2px white; color: white;"
+                        id="exampleFormControlInput1" required>
+                    </div>
+                    <div class="col mb-3">
+                      <label for="exampleFormControlInput2" class="form-label input-form">Email*</label>
+                      <input type="email" name="email" class="form-control"
+                        style="background: transparent; border: solid 2px white; color: white;"
+                        id="exampleFormControlInput2" required>
+                    </div>
+                    <div class="col mb-3">
+                      <label for="exampleFormControlInput3" class="form-label input-form">Compañía</label>
+                      <input type="text" name="company" class="form-control"
+                        style="background: transparent; border: solid 2px white; color: white;"
+                        id="exampleFormControlInput3">
+                    </div>
+                    <div class="col mb-3">
+                      <label for="exampleFormControlInput4" class="form-label input-form">Teléfono</label>
+                      <input type="text" name="phone" class="form-control"
+                        style="background: transparent; border: solid 2px white; color: white;"
+                        id="exampleFormControlInput3">
+                    </div>
+                    <div class="col mb-3">
+                      <label for="exampleFormControlInput5" class="form-label input-form">País*</label>
+                      <input type="text" name="country" class="form-control"
+                        style="background: transparent; border: solid 2px white; color: white;"
+                        id="exampleFormControlInput3" required>
+                    </div>
+                  </div>
+                </div>
+                <!-- Checkout -->
+                <div class="row">
+                  <div class="col-md-12">
+                    <p style="color: white; padding-top: 2em;">¿Qué servicio necesitas?*</p>
+                    <div class="row">
+                      <div class="col">
+                        <div class="form-check">
+                          <input class="form-check-input" name="selected_service1"
+                            style="background-color: transparent; border: solid white 2px;" type="checkbox"
+                            value="App Testing" id="flexCheckDefault">
+                          <label class="form-check-label text-check" for="flexCheckDefault">
+                            App Testing
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" name="selected_service2"
+                            style="background-color: transparent; border: solid white 2px;" type="checkbox"
+                            value="Performance Testing" id="flexCheckDefault">
+                          <label class="form-check-label text-check" for="flexCheckDefault">
+                            Performance Testing
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" name="selected_service3"
+                            style="background-color: transparent; border: solid white 2px;" type="checkbox"
+                            value="Gamer Testing" id="flexCheckDefault">
+                          <label class="form-check-label text-check" for="flexCheckDefault">
+                            Gamer Testing
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="form-check">
+                          <input class="form-check-input" name="selected_service4"
+                            style="background-color: transparent; border: solid white 2px;" type="checkbox"
+                            value="Api Testing" id="flexCheckDefault">
+                          <label class="form-check-label text-check" for="flexCheckDefault">
+                            Api Testing
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" name="selected_service5"
+                            style="background-color: transparent; border: solid white 2px;" type="checkbox"
+                            value="Security Testing" id="flexCheckDefault">
+                          <label class="form-check-label text-check" for="flexCheckDefault">
+                            Security Testing
+                          </label>
+                        </div>
+  
+                      </div>
+                      <div class="col">
+                        <div class="form-check">
+                          <input class="form-check-input" name="selected_service6"
+                            style="background-color: transparent; border: solid white 2px;" type="checkbox"
+                            value="Mobile Testing" id="flexCheckDefault">
+                          <label class="form-check-label text-check" for="flexCheckDefault">
+                            Mobile Testing
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" name="selected_service7"
+                            style="background-color: transparent; border: solid white 2px;" type="checkbox"
+                            value="Usability Testing" id="flexCheckDefault">
+                          <label class="form-check-label text-check" for="flexCheckDefault">
+                            Usability Testing
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
+                <p style="color: white; padding-top: 2em;">Indica ruta de aplicaciones o sitios a testear*</p>
+                <div class="form-group mb-3">
+                  <textarea class="form-control" name="path_website" rows="10"
+                    style="background: transparent; border: solid 2px white; color: white;"
+                    id="exampleFormControlTextarea1" required></textarea>
+                </div>
+                <button type="submit" class="btn-celeste float-end btn-form">Contratar</button>
+              </form>
+            </div>
+            <div class="col-md-4 mb-5 text-center">
+              <img src="../img/te-respondemos.png" width="80%" class="te-respondemos" alt="te respondemos">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <!--footer-->
+  <div class="container-fluid" style="background: #333333; height: 100%;">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col">
+            <img src="../img/logo_app.png" class="logo-footer" alt="logo-apptest">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div>
+              <img src="../img/icon-email.png" style="float: left;" class="mail" width="25px" alt="icono-sobre">
+              <p style="color: #cccccc;">info@apptesteasy.com</p>
+            </div>
+          </div>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+        </div>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+      </div>
+      <div class="col-md-6" style="padding-left: 4em; margin-top: 3em;">
+        <div class="row pt-4 text-footer">
+          <div class="col-6">
+            <nav class="lista">
+              <li>
+                <p style="font-weight: 700;">Servicios</p>
+              </li>
+              <li><a href="#servicios">App Testing</a></li>
+              <li><a href="#ApiTesting">Api Testing</a></li>
+              <li><a href="#MobileTesting">Mobile Testing</a></li>
+              <li><a href="#PerformanceTesting">Performance Testing</a></li>
+              <li><a href="#SecurityTesting">Security Testing</a></li>
+              <li><a href="#UsabilityTesting">Usability Testing</a></li>
+              <li><a href="#GamerTesting">Gamer Testing</a></li>
+            </nav>
+          </div>
+          <div class="col-6">
+            <ul class="lista">
+              <li>
+                <p style="font-weight: 700;">Ayuda</p>
+              </li>
+              <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+              <li><a href="questions.html">FAQs</a></li>
+              <li><a href="terminos-y-condiciones.html">Terminos y Condiciones</a></li>
+              <li><a href="#contactenos">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 text-center">
+        <p style="color: grey; font-size: 1em; margin-top: 6em;  margin-bottom: 0px">Todos los derechos reservados © 2021</p>
+        <div class="contenido-texto">
+          <p style="color: grey; font-size: 1em; margin: 0em;">www.AppTestEasy.com</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
+  <!-- JS -->
+  <script src="js/main.js"></script>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
     -->
-  </body>
+</body>
+
 </html>
