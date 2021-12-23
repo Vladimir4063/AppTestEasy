@@ -12,6 +12,7 @@
   <link rel="icon" href="img/logo-verdeaguaMARINA.png">
 
   <link href="css/estilo.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/iconstyles.css">
   <link rel="stylesheet" href="css/icon-share.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
@@ -62,7 +63,7 @@
   <df-messenger 
     intent="WELCOME" 
     chat-title="AppTestEasy" 
-    chat-icon="img/ilustracion_inicio.png" 
+    chat-icon="img/untitled-font-1.svg" 
     width="45px"
     agent-id="ec2246b7-7f83-4cdd-816d-bf2145183681"
     language-code="es">
@@ -72,21 +73,19 @@
   <style>
     df-messenger {
       --df-messenger-bot-message: white;
-      --df-messenger-button-titlebar-color: red;
+      --df-messenger-button-titlebar-color: #59dad5;
       --df-messenger-chat-background-color: white;
       --df-messenger-font-color: black;
       --df-messenger-send-icon: #878fac;
-      --df-messenger-user-message: #479b3d;
+      --df-messenger-user-message: #9e78fd;
     }
   </style>
 
   <!--botones-contacto-->
   <div class="icon-share">
-    <a id="btn-copy" class="icon" onclick="copytoClickBoard()"
-      ><img src="img/boton-compartir-1.png" width="50" alt="icon-share"></a>
-    <a class="icon2" href="#"> <img src="img/boton-compartir-2.png" width="50" alt="icon-chat"></a>
-    <a class="icon3" href="#"> <img src="img/boton-chat-3.png" width="50" alt="icon-chat"></a>
-
+    <a id="btn-copy" class="icon" onclick="copytoClickBoard()"><img src="img/boton-compartir-1.png" width="60" alt="icon-share"></a>
+    <!-- <a class="icon3" href="#"><i class="icon icon-recurso-7botf"></i></a> -->
+    
   </div>
   
 
@@ -107,6 +106,7 @@
         <button type="button" class="btn-comenzar"><a href="#contactenos"
             style="color: white; text-decoration: none;">Comenzar
             ahora</a></button>
+        <!-- <button type="button" class="btn-comenzar"><a href="#contactenos"><i class="icon icon-recurso-7botf"></i></a></button> -->
       </div>
       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center">
         <img src="img/ilustracion_inicio.png" class="ilus" alt="testing work">

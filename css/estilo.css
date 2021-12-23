@@ -28,7 +28,7 @@ body {
     margin-top: 10px;
 }
 .compartir-margen {
-    margin-top: 350px; 
+    margin-top: 350px;
     text-align: right;
 }
 
@@ -108,13 +108,13 @@ body {
     font-family: 'Rubik', sans-serif;
     font-size: 2.5em;
     font-weight: 300;
-    color: #5C1CFF;   
+    color: #5C1CFF;
 }
 
 .est-text {
     font-family: 'Rubik', sans-serif;
     font-size: 1.3em;
-    font-weight: 500; 
+    font-weight: 500;
     color: rgb(36, 36, 36);
 }
 
@@ -137,12 +137,13 @@ body {
 
 .tit-story {
     font-family: 'Rubik', sans-serif;
+    font-size: 40px;
     font-weight: 500;
     color: rgb(36, 36, 36);
     /* padding-top: 5rem; */
     padding-right: 3rem;
     margin-bottom: 2rem;
-    margin-top: 10rem; 
+    margin-top: 10rem;
     margin-left: 80px;
 }
 
@@ -150,6 +151,10 @@ body {
     padding-right: 4rem;
     font-size: 1.3em;
     width: 100%;
+}
+
+.text-storyAbout {
+        font-size: 23px;
 }
 
 .tit-mayus {
@@ -174,7 +179,7 @@ body {
 }
 .btn-violet:hover {
     box-shadow: 0px 0px 15px #5C1CFF;
-    
+
 }
 
 .testim {
@@ -188,7 +193,7 @@ body {
 }
 
 .estrellas {
-    width: 10rem; 
+    width: 10rem;
     margin-top: 2rem;
 }
 
@@ -251,7 +256,7 @@ body {
 
 .text-check {
     color: white;
-} 
+}
 
 .btn-celeste {
     display: inline-block;
@@ -326,11 +331,15 @@ body {
     color:ghostwhite;
 }
 
+.aboutImg{
+        width: 400px;
+}
+
   /*tamaño-extra-grande*/
   @media(min-width: 1392px) {
     .ilus {
-        max-width: 60%;  
-    }     
+        max-width: 60%;
+    }
   }
 
   /*tamaño-grande-escritorio*/
@@ -341,22 +350,28 @@ body {
         color: #5c1cff;
         margin-top: 1.8rem;
         text-transform: uppercase;
-        
+
     }
     .p-beneficios {
         font-size: 1.2em;
-        
+
     }
     .ilus {
-        max-width: 70%;  
-    } 
+        max-width: 70%;
+    }
+    .aboutImg{
+        width: 450px;
+        /* margin-top: 300px; */
+        padding-top: 100px;
+        padding-right: 100px;
+    }
   }
 
    /*tamaño-escritorio*/
    @media(max-width: 991px) {
     .ilus {
         max-width: 70%;
-    }  
+    }
     .texto {
         font-family: 'Rubik', sans-serif;
         font-size: 1.6em;
@@ -383,13 +398,13 @@ body {
         font-family: 'Rubik', sans-serif;
         font-size: 2em;
         font-weight: 300;
-        color: #5C1CFF;   
+        color: #5C1CFF;
     }
-    
+
     .est-text {
         font-family: 'Rubik', sans-serif;
         font-size: 1em;
-        font-weight: 500; 
+        font-weight: 500;
         color: #242424;
     }
     .tit-story {
@@ -403,6 +418,21 @@ body {
     }
     .text-story {
         font-size: .8em;
+    }
+
+    .tit-storyAbout{
+        font-size: 30px;
+    }
+
+    .tit-story {
+        font-size: 40px;
+    }
+
+    .aboutImg{
+        width: 300px;
+        /* margin-top: 300px; */
+        padding-top: 100px;
+        padding-right: 90px;
     }
     .story-margin {
         /* margin-left: 12%; */
@@ -454,7 +484,7 @@ body {
         font-family: 'Rubik', sans-serif;
         font-size: 1em;
     }
-    
+
   }
 
 
@@ -488,19 +518,19 @@ body {
         font-family: 'Rubik', sans-serif;
         font-weight: 500;
         font-size: 1.5em;
-        
+
     }
     .est-num {
         font-family: 'Rubik', sans-serif;
         font-size: 2.2em;
         font-weight: 300;
-        color: #5C1CFF;   
+        color: #5C1CFF;
     }
-    
+
     .est-text {
         font-family: 'Rubik', sans-serif;
         font-size: 1.5em;
-        font-weight: 500; 
+        font-weight: 500;
         color: rgb(36, 36, 36);
     }
     .tit-story {
@@ -558,7 +588,7 @@ body {
         padding-top: 3rem;
     }
     .estrellas {
-        width: 13rem; 
+        width: 13rem;
         margin-top: 2rem;
     }
     .subtit {
@@ -588,7 +618,7 @@ body {
         font-size: 1.5em;
         text-align: center;
     }
-    
+
   }
 
    /*tamaño-mobile*/
@@ -611,7 +641,7 @@ body {
     }
 
     .compartir-margen {
-        margin-top: 400px; 
+        margin-top: 400px;
         text-align: right;
     }
     .texto {
@@ -670,5 +700,4 @@ body {
 
         }
       }
-    
-   
+

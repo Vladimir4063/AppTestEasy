@@ -9,10 +9,10 @@
   <meta name="author" content="">
 
   <title>AppTestEasy</title>
-  <link rel="icon" href="img/logo-verdeaguaMARINA.png">
+  <link rel="icon" href="../img/logo-verdeaguaMARINA.png">
 
-  <link href="css/estilo.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/icon-share.css">
+  <link href="../css/estilo.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/icon-share.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,7 +20,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="css/styleBootstrap.css">
+  <link rel="stylesheet" href="../css/styleBootstrap.css">
 
   </head>
 
@@ -29,7 +29,8 @@
   <!--nav-->
   <nav class="navbar fixed-top navbar-expand-lg w-100 bg-violet pt-3 pb-3">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html"><img src="img/logo_app.png" style="padding-left: 1.5em;" width="220px"></a>
+      <a class="navbar-brand" href="index.html"><img src="../img/logo_app.png" style="padding-left: 1.5em;"
+          width="220px"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -37,19 +38,19 @@
       <div class="collapse navbar-collapse justify-content-end" style="margin-right:15px;" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Cómo trabajamos</a>
+            <a class="nav-link" href="index-en.html">How we work</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Beneficios</a>
+            <a class="nav-link" href="index-en.html">Benefice</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Servicios</a>
+            <a class="nav-link" href="index-en.html">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Contáctenos</a>
+            <a class="nav-link" href="index-en.html">Contact us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="ingles/sobre-nosotros-en.html">EN</a>
+            <a class="nav-link" href="../sobre-nosotros.html">ES</a>
           </li>
         </ul>
       </div>
@@ -58,8 +59,13 @@
 
   <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
   
-  <df-messenger intent="WELCOME" chat-title="AppTestEasy" chat-icon="../img/ilustracion_inicio.png" width="45px"
-    agent-id="ec2246b7-7f83-4cdd-816d-bf2145183681" language-code="es">
+  <df-messenger 
+  intent="WELCOME" 
+  chat-title="AppTestEasy" 
+  chat-icon="../img/ilustracion_inicio.png" 
+  width="45px"
+  agent-id="ec2246b7-7f83-4cdd-816d-bf2145183681" 
+  language-code="es">
   </df-messenger>
   <meta name="viewport" content="width-device-width, initial-scale=1">
   
@@ -73,10 +79,12 @@
       --df-messenger-user-message: #9e78fd;
     }
   </style>
+  <meta name="viewport" content="width-device-width, initial-scale=1">
 
   <!--botones-contacto-->
   <div class="icon-share">
-    <a id="btn-copy" class="icon" onclick="copytoClickBoard()"><img src="img/boton-compartir-1.png" width="60px" alt="icon-share"></a>
+    <a id="btn-copy" class="icon" onclick="copytoClickBoard()"><img src="../img/boton-compartir-1.png" width="60" alt="icon-share"></a>
+    
   </div>
   <div class="mensaje-copy">
     <p>¡Copiado al portapapeles!</p>
@@ -87,33 +95,24 @@
    
     <div class="row">
       <div class="col justify-content-center story-margin">
-          <h2 class="tit-story">¿Quienes somos?</h2>
+          <h2 class="tit-story">¿About us?</h2>
         <div class="row row-story-about">
           <div class="col-md-4 text-center">
            
-            <img src="img/sobre-nostros/quienesSomos.gif" class=" aboutImg" alt="work team">
+            <img src="../img/sobre-nostros/quienesSomos.gif" class="img-fluid aboutImg" alt="work team">
           </div>
           <div class="col-md-8" style="margin-top: 40px;">
-            <p class="text-storyAbout" style="padding-bottom: 25px; margin-top: 50px;">Somos una de las empresas líderes en el área de
-            pruebas de software en Argentina.
-            
-            Nuestros equipos de testeo incluyen algunos de los
-            expertos en TI y ciberseguridad más experimentados
-            del país, además de contar con herramientas de
-            vanguardia en el área tecnológica.
+            <p class="text-story" style="padding-bottom: 25px; margin-top: 50px;">We are one of the leading companies in the software testing area in Argentina. Our testing teams include some of the
+            most experienced IT and cybersecurity experts in the country, as well as having cutting-edge tools in the technological
+            area.
             </p>
-            <p class="text-storyAbout" style="padding-bottom: 25px;">Desde el año 2019 estamos comprometidos en
-            brindar una solución integral y preventiva para cada
-            proyecto. Además de enfocarnos fuertemente en la
-            prevención de ataques maliciosos.
+            <p class="text-story" style="padding-bottom: 25px;">Since 2019 we are committed to providing a comprehensive and preventive solution for each project. In addition to
+            focusing heavily on preventing malicious attacks.
             </p>
-            <p class="text-storyAbout" style="padding-bottom: 25px;">Nos impulsa la mejora continua, la colaboración y el
-            trabajo en equipo, dándole servicios a grandes y
-            medianas empresas en varios sectores tecnológicos.
+            <p class="text-story" style="padding-bottom: 25px;">We are driven by continuous improvement, collaboration and teamwork, providing services to large and medium-sized
+            companies in various technology sectors.
             </p>
-            <p class="text-storyAbout" style="padding-bottom: 25px;">Los proyectos con los que trabajamos son adaptados
-            y personalizados para cada uno de nuestros clientes,
-            según la necesidad.
+            <p class="text-story" style="padding-bottom: 25px;">The projects we work with are adapted and personalized for each of our clients, according to need.
             </p>
           </div>
         </div>
@@ -122,19 +121,19 @@
 
     <div class="row">
       <div class="col " style="text-align: center;">
-        <p class="text-storyAbout" style="padding: 0px 80px;">
-          Una de nuestras principales cualidades es la utilización de metodologías
-          propias conformadas por bases de conocimiento y herramientas automáticas
-          alineándose con estándares internacionalmente aceptados para la práctica
-          de seguridad de la información y tecnologías como:
+        <p class="text-story" style="padding: 0px 80px;">
+          One of our main qualities is the use of methodologies
+          own made up of knowledge bases and automatic tools
+          aligning with internationally accepted standards for practice
+          information security and technologies such as:
         </p>
-        <img class="imgAbout" src="img/sobre-nostros/CertificadoApp.png" alt="certificadoApp" style="margin: 30px; justify-content: center;">
-        <p class="text-storyAbout" style="padding: 0px 40px 80px;">
-          AppTestEasy realiza de manera voluntaria y espontánea variadas acciones de
-          RSE/RSC donde se adopta, apoya y promueve, dentro de sus espacios de
-          influencia, temas relacionados con las áreas de derechos humanos, normas
-          laborales, medio ambiente y anti-corrupción, según El Pacto Mundial de la
-          ONU.
+        <img class="imgAbout" src="../img/sobre-nostros/CertificadoApp.png" alt="certificadoApp" style="margin: 30px; justify-content: center;">
+        <p class="text-story" style="padding: 0px 40px 80px;">
+          AppTestEasy voluntarily and spontaneously performs various actions of
+          CSR / CSR where it is adopted, supported and promoted, within its spaces of
+          influence, issues related to the areas of human rights, norms
+          labor, environment and anti-corruption, according to the Global Compact for
+          UN.
         </p>
       </div>
     </div>
@@ -148,45 +147,45 @@
       <div class="col-md-6">
         <div class="row">
           <div class="col">
-            <img src="img/logo_app.png" class="logo-footer" alt="logo-apptest">
+            <img src="../img/logo_app.png" class="logo-footer" alt="logo-apptest">
           </div>
         </div>
         <div class="row">
           <div class="col-12">
             <div>
-              <img src="img/icon-email.png" style="float: left;" class="mail" width="25px" alt="icono-sobre">
+              <img src="../img/icon-email.png" style="float: left;" class="mail" width="25px" alt="icono-sobre">
               <p style="color: #cccccc;">info@apptesteasy.com</p>
             </div>
           </div>
-
+  
         </div>
-
+  
       </div>
       <div class="col-md-6" style="padding-left: 4em; margin-top: 3em;">
         <div class="row pt-4 text-footer">
           <div class="col-6">
             <nav class="lista">
               <li>
-                <p style="font-weight: 700;">Servicios</p>
+                <p style="font-weight: 700;">Services</p>
               </li>
-              <li><a href="index.html#AppTesting">App Testing</a></li>
-              <li><a href="index.html">Api Testing</a></li>
-              <li><a href="index.html">Mobile Testing</a></li>
-              <li><a href="index.html">Performance Testing</a></li>
-              <li><a href="index.html">Security Testing</a></li>
-              <li><a href="index.html">Usability Testing</a></li>
-              <li><a href="index.html">Gamer Testing</a></li>
+              <li><a href="#servicios">App Testing</a></li>
+              <li><a href="#ApiTesting">Api Testing</a></li>
+              <li><a href="#MobileTesting">Mobile Testing</a></li>
+              <li><a href="#PerformanceTesting">Performance Testing</a></li>
+              <li><a href="#SecurityTesting">Security Testing</a></li>
+              <li><a href="#UsabilityTesting">Usability Testing</a></li>
+              <li><a href="#GamerTesting">Gamer Testing</a></li>
             </nav>
           </div>
           <div class="col-6">
             <ul class="lista">
               <li>
-                <p style="font-weight: 700;">Ayuda</p>
+                <p style="font-weight: 700;">Help</p>
               </li>
-              <li><a href="#">Sobre Nosotros</a></li>
-              <li><a href="questions.html">FAQs</a></li>
-              <li><a href="terminos-y-condiciones.html">Terminos y Condiciones</a></li>
-              <li><a href="index.html#contactenos">Contacto</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="questions-en.html">FAQs</a></li>
+              <li><a href="terminos-y-condiciones-en.html">Terms and Conditions</a></li>
+              <li><a href="index-en.html">Contact</a></li>
             </ul>
           </div>
         </div>
@@ -194,7 +193,7 @@
     </div>
     <div class="row">
       <div class="col-12 text-center">
-        <p style="color: grey; font-size: 1em; margin-top: 6em;  margin-bottom: 0px">Todos los derechos reservados © 2021</p>
+        <p style="color: grey; font-size: 1em; margin-top: 6em;  margin-bottom: 0px">All rights reserved © 2021</p>
         <div class="contenido-texto">
           <p style="color: grey; font-size: 1em; margin: 0em;">www.AppTestEasy.com</p>
         </div>
@@ -203,7 +202,7 @@
   </div>
 
   <!-- JS -->
-  <script src="js/main.js"></script>
+  <script src="../js/main.js"></script>
 
   <!-- Optional JavaScript; choose one of the two! -->
 
