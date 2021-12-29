@@ -59,15 +59,27 @@
   <!-- chat bot -->
   <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 
-  <df-messenger intent="WELCOME" chat-title="AppTestEasy" agent-id="ec2246b7-7f83-4cdd-816d-bf2145183681"
-    language-code="es" chat-icon="img/icon-chatbot.png" height="34"></df-messenger>
+  <df-messenger intent="WELCOME" 
+  chat-title="AppTestEasy" 
+  agent-id="ec2246b7-7f83-4cdd-816d-bf2145183681"
+  language-code="es" 
+  chat-icon="img/chat_bot2.svg">
+  </df-messenger>
+
+  <style>
+    df-messenger {
+      --df-messenger-bot-message: white;
+      --df-messenger-button-titlebar-color: #52cac6;
+      --df-messenger-chat-background-color: white;
+      --df-messenger-font-color: black;
+      --df-messenger-send-icon: #878fac;
+      --df-messenger-user-message: #9e78fd;
+    }
+  </style>
 
   <!--botones-contacto-->
   <div class="icon-share">
-    <a id="btn-copy" class="icon" onclick="copytoClickBoard()"
-      ><img src="img/boton-compartir-1.png" width="50" alt="icon-share"></a>
-    <a class="icon2" href="#"> <img src="img/boton-chat-3.png" width="50" alt="icon-chat"></a>
-    
+    <a id="btn-copy" class="icon" onclick="copytoClickBoard()"><img src="img/share.svg" width="60" alt="icon-share"></a>
   </div>
   <div class="mensaje-copy">
     <p>¡Copiado al portapapeles!</p>

@@ -13,7 +13,6 @@
   <link rel="icon" href="../img/logo-verdeaguaMARINA.png">
 
   <link href="../css/estilo.css" rel="stylesheet">
-  <link rel="stylesheet" href="../css/icon-share.css">
   <link rel="stylesheet" href="../css/questions.css">
   <link rel="stylesheet" href="../css/styleBootstrap.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -31,7 +30,7 @@
   <!--nav-->
   <nav class="navbar fixed-top navbar-expand-lg w-100 bg-violet pt-3 pb-3">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html"><img src="../img/logo_app.png" style="padding-left: 1.5em;"
+      <a class="navbar-brand" href="index-en.html"><img src="../img/logo_app.png" style="padding-left: 1.5em;"
           width="220px"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,15 +61,19 @@
   <!-- CHAT BOT  -->
   <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
   
-  <df-messenger intent="WELCOME" chat-title="AppTestEasy" chat-icon="../img/ilustracion_inicio.png" width="45px"
-    agent-id="ec2246b7-7f83-4cdd-816d-bf2145183681" language-code="es">
+  <df-messenger 
+  intent="WELCOME" 
+  chat-title="AppTestEasy" 
+  chat-icon="../img/chat_bot2.svg" 
+  agent-id="ec2246b7-7f83-4cdd-816d-bf2145183681" 
+  language-code="es">
   </df-messenger>
   <meta name="viewport" content="width-device-width, initial-scale=1">
   
   <style>
     df-messenger {
       --df-messenger-bot-message: white;
-      --df-messenger-button-titlebar-color: #5DEDE8;
+      --df-messenger-button-titlebar-color: #52cac6;
       --df-messenger-chat-background-color: white;
       --df-messenger-font-color: black;
       --df-messenger-send-icon: #878fac;
@@ -80,7 +83,7 @@
   
   <!--botones-contacto-->
   <div class="icon-share">
-    <a id="btn-copy" class="icon" onclick="copytoClickBoard()"><img src="../img/boton-compartir-1.png" width="60"
+    <a id="btn-copy" class="icon" onclick="copytoClickBoard()"><img src="../img/share.svg" width="60"
         alt="icon-share"></a>
   </div>
 
@@ -283,7 +286,7 @@
           <!-- formSubmit -->
           <div class="row padd-form">
             <div class="col-md-8">
-              <form target="_blank" action="https://formsubmit.co/vladimirgutierrez4063@gmail.com" method="POST">
+              <form target="_blank" action="https://formsubmit.co/info@pentass.com" method="POST">
                 <div class="form-group">
                   <div class="form-row">
                     <div class="col mb-3">
@@ -469,7 +472,7 @@
   </div>
 
   <!-- JS -->
-  <script src="../js/main.js"></script>
+  <script src="../js/main-en.js"></script>
 
   <!-- Optional JavaScript; choose one of the two! -->
 

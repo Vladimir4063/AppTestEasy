@@ -58,15 +58,18 @@
 
   <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
   
-  <df-messenger intent="WELCOME" chat-title="AppTestEasy" chat-icon="../img/ilustracion_inicio.png" width="45px"
-    agent-id="ec2246b7-7f83-4cdd-816d-bf2145183681" language-code="es">
+  <df-messenger intent="WELCOME" 
+  chat-title="AppTestEasy" 
+  chat-icon="../img/chat_bot2.svg" 
+  agent-id="ec2246b7-7f83-4cdd-816d-bf2145183681" 
+  language-code="es">
   </df-messenger>
   <meta name="viewport" content="width-device-width, initial-scale=1">
   
   <style>
     df-messenger {
       --df-messenger-bot-message: white;
-      --df-messenger-button-titlebar-color: #5DEDE8;
+      --df-messenger-button-titlebar-color: #52cac6;
       --df-messenger-chat-background-color: white;
       --df-messenger-font-color: black;
       --df-messenger-send-icon: #878fac;
@@ -76,7 +79,7 @@
 
   <!--botones-contacto-->
   <div class="icon-share">
-    <a id="btn-copy" class="icon" onclick="copytoClickBoard()"><img src="img/boton-compartir-1.png" width="60px" alt="icon-share"></a>
+    <a id="btn-copy" class="icon" onclick="copytoClickBoard()"><img src="img/share.svg" width="60px" alt="icon-share"></a>
   </div>
   <div class="mensaje-copy">
     <p>¡Copiado al portapapeles!</p>

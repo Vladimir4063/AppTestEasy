@@ -335,6 +335,15 @@ body {
         width: 400px;
 }
 
+.icon{
+  position: fixed;
+  width: 40px;
+  height: 60px;
+  bottom: 10%;
+  right: 40px;
+  cursor: pointer;
+}
+
   /*tamaño-extra-grande*/
   @media(min-width: 1392px) {
     .ilus {
