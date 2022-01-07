@@ -63,7 +63,7 @@
   
   <df-messenger intent="WELCOME" 
   chat-title="AppTestEasy" 
-  chat-icon="../img/chat_bot2.svg" 
+  chat-icon="img/chat_bot2.svg" 
   agent-id="ec2246b7-7f83-4cdd-816d-bf2145183681" 
   language-code="es">
   </df-messenger>
@@ -82,7 +82,7 @@
   
   <!--botones-contacto-->
   <div class="icon-share">
-    <a id="btn-copy" class="icon" onclick="copytoClickBoard()"><img src="../img/share.svg" width="60"
+    <a id="btn-copy" class="icon" onclick="copytoClickBoard()"><img src="img/share.svg" width="60"
         alt="icon-share"></a>
   </div>
 
@@ -275,145 +275,6 @@
         </div>
 
 
-      </div>
-    </div>
-  </div>
-
-  <!--formulario-->
-  <div class="container-fluid fondo-3" style="padding-bottom: 10rem; background: whitesmoke;" id="contactenos">
-    <div class="row justify-content-center pt-5" style="background-color: whitesmoke;">
-      <div class="col-md-8">
-        <div class="container fondo-form pt-3">
-  
-          <div class="row padd-form pb-4">
-            <h1 class="texto mt-5 mb-2" style="color: white">Quiero mi testing</h1>
-            <p style="color: white;">En caso de que necesite algunos servicios únicos o tenga dudas sobre algún detalle
-              del proyecto,<br />especifique sus deseos y los detalles del proyecto en el campo de comentarios.</p>
-          </div>
-          <!-- formSubmit -->
-          <div class="row padd-form">
-            <div class="col-md-8">
-              <form target="_blank" action="https://formsubmit.co/info@pentass.com" method="POST">
-                <div class="form-group">
-                  <div class="form-row">
-                    <div class="col mb-3">
-                      <label for="exampleFormControlInput1" class="form-label input-form">Nombre*</label>
-                      <input type="text" name="name" class="form-control"
-                        style="background: transparent; border: solid 2px white; color: white;"
-                        id="exampleFormControlInput1" required>
-                    </div>
-                    <div class="col mb-3">
-                      <label for="exampleFormControlInput2" class="form-label input-form">Email*</label>
-                      <input type="email" name="email" class="form-control"
-                        style="background: transparent; border: solid 2px white; color: white;"
-                        id="exampleFormControlInput2" required>
-                    </div>
-                    <div class="col mb-3">
-                      <label for="exampleFormControlInput3" class="form-label input-form">Compañía</label>
-                      <input type="text" name="company" class="form-control"
-                        style="background: transparent; border: solid 2px white; color: white;"
-                        id="exampleFormControlInput3">
-                    </div>
-                    <div class="col mb-3">
-                      <label for="exampleFormControlInput4" class="form-label input-form">Teléfono</label>
-                      <input type="text" name="phone" class="form-control"
-                        style="background: transparent; border: solid 2px white; color: white;"
-                        id="exampleFormControlInput3">
-                    </div>
-                    <div class="col mb-3">
-                      <label for="exampleFormControlInput5" class="form-label input-form">País*</label>
-                      <input type="text" name="country" class="form-control"
-                        style="background: transparent; border: solid 2px white; color: white;"
-                        id="exampleFormControlInput3" required>
-                    </div>
-                  </div>
-                </div>
-                <!-- Checkout -->
-                <div class="row">
-                  <div class="col-md-12">
-                    <p style="color: white; padding-top: 2em;">¿Qué servicio necesitas?*</p>
-                    <div class="row">
-                      <div class="col">
-                        <div class="form-check">
-                          <input class="form-check-input" name="selected_service1"
-                            style="background-color: transparent; border: solid white 2px;" type="checkbox"
-                            value="App Testing" id="flexCheckDefault">
-                          <label class="form-check-label text-check" for="flexCheckDefault">
-                            App Testing
-                          </label>
-                        </div>
-                        <div class="form-check">
-                          <input class="form-check-input" name="selected_service2"
-                            style="background-color: transparent; border: solid white 2px;" type="checkbox"
-                            value="Performance Testing" id="flexCheckDefault">
-                          <label class="form-check-label text-check" for="flexCheckDefault">
-                            Performance Testing
-                          </label>
-                        </div>
-                        <div class="form-check">
-                          <input class="form-check-input" name="selected_service3"
-                            style="background-color: transparent; border: solid white 2px;" type="checkbox"
-                            value="Gamer Testing" id="flexCheckDefault">
-                          <label class="form-check-label text-check" for="flexCheckDefault">
-                            Gamer Testing
-                          </label>
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div class="form-check">
-                          <input class="form-check-input" name="selected_service4"
-                            style="background-color: transparent; border: solid white 2px;" type="checkbox"
-                            value="Api Testing" id="flexCheckDefault">
-                          <label class="form-check-label text-check" for="flexCheckDefault">
-                            Api Testing
-                          </label>
-                        </div>
-                        <div class="form-check">
-                          <input class="form-check-input" name="selected_service5"
-                            style="background-color: transparent; border: solid white 2px;" type="checkbox"
-                            value="Security Testing" id="flexCheckDefault">
-                          <label class="form-check-label text-check" for="flexCheckDefault">
-                            Security Testing
-                          </label>
-                        </div>
-  
-                      </div>
-                      <div class="col">
-                        <div class="form-check">
-                          <input class="form-check-input" name="selected_service6"
-                            style="background-color: transparent; border: solid white 2px;" type="checkbox"
-                            value="Mobile Testing" id="flexCheckDefault">
-                          <label class="form-check-label text-check" for="flexCheckDefault">
-                            Mobile Testing
-                          </label>
-                        </div>
-                        <div class="form-check">
-                          <input class="form-check-input" name="selected_service7"
-                            style="background-color: transparent; border: solid white 2px;" type="checkbox"
-                            value="Usability Testing" id="flexCheckDefault">
-                          <label class="form-check-label text-check" for="flexCheckDefault">
-                            Usability Testing
-                          </label>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-  
-                <p style="color: white; padding-top: 2em;">Indica ruta de aplicaciones o sitios a testear*</p>
-                <div class="form-group mb-3">
-                  <textarea class="form-control" name="path_website" rows="10"
-                    style="background: transparent; border: solid 2px white; color: white;"
-                    id="exampleFormControlTextarea1" required></textarea>
-                </div>
-                <button type="submit" class="btn-celeste float-end btn-form">Contratar</button>
-              </form>
-            </div>
-            <div class="col-md-4 mb-5 text-center">
-              <img src="img/te-respondemos.png" width="80%" class="te-respondemos" alt="te respondemos">
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </div>

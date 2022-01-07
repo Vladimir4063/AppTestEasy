@@ -22,7 +22,7 @@
     rel="stylesheet">
   <link rel="stylesheet" href="css/styleBootstrap.css">
 
-  </head>
+</head>
 
 
 <body>
@@ -60,7 +60,7 @@
   
   <df-messenger intent="WELCOME" 
   chat-title="AppTestEasy" 
-  chat-icon="../img/chat_bot2.svg" 
+  chat-icon="img/chat_bot2.svg"
   agent-id="ec2246b7-7f83-4cdd-816d-bf2145183681" 
   language-code="es">
   </df-messenger>
@@ -81,40 +81,35 @@
   <div class="icon-share">
     <a id="btn-copy" class="icon" onclick="copytoClickBoard()"><img src="img/share.svg" width="60px" alt="icon-share"></a>
   </div>
-  <div class="mensaje-copy">
-    <p>¡Copiado al portapapeles!</p>
-  </div>
 
   <!--Quienes somos-->
   <div class="container-fluid fondo-4" id="comotrabajamos" >
    
-    <div class="row">
-      <div class="col justify-content-center story-margin">
-          <h2 class="tit-story">¿Quienes somos?</h2>
+    <div class="row justify-content-center">
+      <div class="col story-margin">
+           <h2 class="tit-storyAbout"style="font-size: 34px; padding-top: 100px;">¿Quienes somos?</h2>
         <div class="row row-story-about">
           <div class="col-md-4 text-center">
-           
-            <img src="img/sobre-nostros/quienesSomos.gif" class=" aboutImg" alt="work team">
+            <img src="img/sobre-nostros/quienesSomos.gif" class="aboutImg" alt="work team">
           </div>
-          <div class="col-md-8" style="margin-top: 40px;">
-            <p class="text-storyAbout" style="padding-bottom: 25px; margin-top: 50px;">Somos una de las empresas líderes en el área de
+          <div class="col-md-6">
+            <p class="text-storyAbout" style="padding-top: 35px;">Somos una de las empresas líderes en el área de
             pruebas de software en Argentina.
-            
             Nuestros equipos de testeo incluyen algunos de los
             expertos en TI y ciberseguridad más experimentados
             del país, además de contar con herramientas de
             vanguardia en el área tecnológica.
             </p>
-            <p class="text-storyAbout" style="padding-bottom: 25px;">Desde el año 2019 estamos comprometidos en
+            <p class="text-storyAbout">Desde el año 2019 estamos comprometidos en
             brindar una solución integral y preventiva para cada
             proyecto. Además de enfocarnos fuertemente en la
             prevención de ataques maliciosos.
             </p>
-            <p class="text-storyAbout" style="padding-bottom: 25px;">Nos impulsa la mejora continua, la colaboración y el
+            <p class="text-storyAbout">Nos impulsa la mejora continua, la colaboración y el
             trabajo en equipo, dándole servicios a grandes y
             medianas empresas en varios sectores tecnológicos.
             </p>
-            <p class="text-storyAbout" style="padding-bottom: 25px;">Los proyectos con los que trabajamos son adaptados
+            <p class="text-storyAbout">Los proyectos con los que trabajamos son adaptados
             y personalizados para cada uno de nuestros clientes,
             según la necesidad.
             </p>
@@ -123,16 +118,16 @@
       </div>
     </div>
 
-    <div class="row">
-      <div class="col " style="text-align: center;">
-        <p class="text-storyAbout" style="padding: 0px 80px;">
+    <div class="row justify-content-center">
+      <div class="col-about col-lg-6 col-md-10" style="text-align: center;">
+        <p class="text-storyAbout">
           Una de nuestras principales cualidades es la utilización de metodologías
           propias conformadas por bases de conocimiento y herramientas automáticas
           alineándose con estándares internacionalmente aceptados para la práctica
           de seguridad de la información y tecnologías como:
         </p>
         <img class="imgAbout" src="img/sobre-nostros/CertificadoApp.png" alt="certificadoApp" style="margin: 30px; justify-content: center;">
-        <p class="text-storyAbout" style="padding: 0px 40px 80px;">
+        <p class="text-storyAbout">
           AppTestEasy realiza de manera voluntaria y espontánea variadas acciones de
           RSE/RSC donde se adopta, apoya y promueve, dentro de sus espacios de
           influencia, temas relacionados con las áreas de derechos humanos, normas
@@ -161,9 +156,7 @@
               <p style="color: #cccccc;">info@apptesteasy.com</p>
             </div>
           </div>
-
         </div>
-
       </div>
       <div class="col-md-6" style="padding-left: 4em; margin-top: 3em;">
         <div class="row pt-4 text-footer">
